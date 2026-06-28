@@ -1,5 +1,3 @@
-Built an agent that audits your SaaS stack, finds wasted spend, and auto-generates cheaper alternatives — billing a success fee only when it saves you money.
+Agent audits your SaaS stack, finds wasted spend, and bills a 20% success fee only when it saves you money.
 
-1-min demo ↓
-
-@NousResearch @NVIDIAAI @stripe
+Demo ↓ @NousResearch @NVIDIAAI @stripe
