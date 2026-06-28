@@ -230,7 +230,7 @@
         "note": "Async video use concentrated in enablement."
       }
     ],
-    "generated_at": "2026-06-28T16:23:38Z",
+    "generated_at": "2026-06-28T18:08:10Z",
     "summary": {
       "vendor_count": 20,
       "annual_spend": 235416,
@@ -423,11 +423,11 @@
     "moa_status": {
       "model_note": "consensus_reached",
       "parsed": true,
-      "raw_excerpt": "{\"generated_at\":\"2026-06-28T12:00:00Z\",\"company\":\"Acme AI Studio\",\"headline\":\"Acme AI Studio can cut SaaS spend by 36% in 90 days\",\"tagline\":\"Eliminate duplicate tools, right-size seats, and renegotiate bloated contracts \u2014 all without touching core systems.\",\"thesis\":\"Acme AI Studio carries $235K in annual SaaS spend across 20 vendors, with 10 tools showing low utilization and 4 exact category duplicates. By canceling 6 redundant or legacy tools (Monday.com, Miro, Lucidchart, New Relic, Zendesk, Dropbox), rightsizing paid seats on another 9 contracts, and renegotiating Datadog commitment levels, the council projects $84,720 in first-year savings \u2014 a 36% reduction \u2014 while preserving every business-critical workflow.\",\"confidence\":0.94,\"before_annual_spend\":235416,\"after_annual_spend\":150696"
+      "raw_excerpt": "{\n  \"generated_at\": \"2026-06-28T12:00:00Z\",\n  \"company\": \"Acme AI Studio\",\n  \"headline\": \"$95K in SaaS Waste Identified Across 20 Vendors\",\n  \"tagline\": \"Eliminate duplicate tools, reclaim zombie seats, and right-size contracts before your next renewal cycle.\",\n  \"thesis\": \"Acme AI Studio spends $235,416 annually across 20 vendors with a 72-person team. Our audit found 4 duplicate categories, 10 vendors with critically low utilization, and $95,196 in recoverable spend. The biggest levers are consolidating overlapping project management, design, observability, and support stacks, plus reclaiming paid seats that exceed active usage by 2x or more. Renewals for Monday.com, New Relic, and Zendesk are due within 9 days and represent immediate $38,400 in annualized cuts if acted on this week.\",\n "
     }
   },
   "ledger": {
-    "generated_at": "2026-06-28T16:40:01Z",
+    "generated_at": "2026-06-28T18:09:58Z",
     "business": "Otto Procurement Agent",
     "currency": "usd",
     "payment": {
@@ -442,9 +442,9 @@
       "public_demo_dataset": true
     },
     "stripe_event": {
-      "id": "evt_otto_procurement_1782664801",
+      "id": "evt_otto_procurement_1782670198",
       "type": "checkout.session.completed",
-      "created": 1782664801,
+      "created": 1782670198,
       "livemode": false,
       "data": {
         "object": {
@@ -459,55 +459,457 @@
           }
         }
       },
-      "local_signature": "6579c130d5eef20dd908d41a3f45d073a238767169baa14a701a65b7a5e3db8c"
+      "local_signature": "118677d509519c21958a401a2ff81a7b96726a0c4ae191f6cfc8c61a0cac7629"
     },
     "entries": [
       {
         "type": "revenue",
         "label": "Success-fee checkout: 20% of first-year savings",
         "amount_cents": 1257600,
-        "source": "evt_otto_procurement_1782664801",
-        "timestamp": "2026-06-28T16:40:01Z"
+        "source": "evt_otto_procurement_1782670198",
+        "timestamp": "2026-06-28T18:09:58Z"
       },
       {
         "type": "spend",
         "label": "MoA council SaaS audit",
         "amount_cents": -1850,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T16:40:01Z"
+        "timestamp": "2026-06-28T18:09:58Z"
       },
       {
         "type": "spend",
         "label": "Spend ingestion and normalization",
         "amount_cents": -420,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T16:40:01Z"
+        "timestamp": "2026-06-28T18:09:58Z"
       },
       {
         "type": "spend",
         "label": "Provisioning plan generation",
         "amount_cents": -960,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T16:40:01Z"
+        "timestamp": "2026-06-28T18:09:58Z"
       },
       {
         "type": "spend",
         "label": "Static hosting allocation",
         "amount_cents": -190,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T16:40:01Z"
+        "timestamp": "2026-06-28T18:09:58Z"
       },
       {
         "type": "reserve",
         "label": "Reinvested into next SaaS audit cycle",
         "amount_cents": -50000,
         "approved_by": "policy:retain_positive_balance",
-        "timestamp": "2026-06-28T16:40:01Z"
+        "timestamp": "2026-06-28T18:09:58Z"
       }
     ],
     "balance_cents": 1204180,
     "gross_margin_cents_before_reinvestment": 1254180,
     "delivery_status": "audit_and_provisioning_plan_prepared"
+  },
+  "evidence": {
+    "generated_at": "2026-06-28T18:10:01Z",
+    "replayable": true,
+    "company": "Acme AI Studio",
+    "evidence_cards": [
+      {
+        "recommendation_id": "rec-001",
+        "action": "Retire New Relic after Datadog migration",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 60000,
+        "recommended_annual": 42000,
+        "annual_savings": 18000,
+        "success_fee_if_verified": 3600.0,
+        "evidence": [
+          {
+            "kind": "invoice",
+            "source": "NR-2026-05-8841",
+            "finding": "$1,500 monthly New Relic charge still active"
+          },
+          {
+            "kind": "usage",
+            "source": "SSO app access logs",
+            "finding": "4 active users / 20 seats"
+          },
+          {
+            "kind": "contract",
+            "source": "Datadog MSA \u00a72.1",
+            "finding": "Datadog already approved as observability standard"
+          }
+        ],
+        "math": "$60,000 current - $42,000 recommended = $18,000 annual savings",
+        "risk": "low",
+        "effort": "low",
+        "approval_required": true,
+        "confidence": "high"
+      },
+      {
+        "recommendation_id": "rec-002",
+        "action": "Cancel Monday.com and consolidate project work into Asana",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 24000,
+        "recommended_annual": 15840,
+        "annual_savings": 8160,
+        "success_fee_if_verified": 1632.0,
+        "evidence": [
+          {
+            "kind": "usage",
+            "source": "Okta app launch report",
+            "finding": "13 active users / 45 paid seats"
+          },
+          {
+            "kind": "invoice",
+            "source": "MON-5459",
+            "finding": "$800 monthly duplicate project-management spend"
+          },
+          {
+            "kind": "owner",
+            "source": "legacy-team.csv",
+            "finding": "two legacy squads only"
+          }
+        ],
+        "math": "$24,000 current - $15,840 recommended = $8,160 annual savings",
+        "risk": "medium",
+        "effort": "medium",
+        "approval_required": true,
+        "confidence": "medium"
+      },
+      {
+        "recommendation_id": "rec-003",
+        "action": "Right-size Figma paid editor seats from 54 to 30",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 12960,
+        "recommended_annual": 7200,
+        "annual_savings": 5760,
+        "success_fee_if_verified": 1152.0,
+        "evidence": [
+          {
+            "kind": "usage",
+            "source": "Figma editor audit",
+            "finding": "24 of 54 paid editors created no files in 90 days"
+          },
+          {
+            "kind": "invoice",
+            "source": "FIG-ENT-2026-06",
+            "finding": "$240 annualized/editor equivalent"
+          },
+          {
+            "kind": "policy",
+            "source": "design-seat-policy.md",
+            "finding": "viewer role allowed for reviewers"
+          }
+        ],
+        "math": "$12,960 current - $7,200 recommended = $5,760 annual savings",
+        "risk": "low",
+        "effort": "low",
+        "approval_required": true,
+        "confidence": "high"
+      },
+      {
+        "recommendation_id": "rec-004",
+        "action": "Retire Zendesk and route remaining queues to Intercom",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 27600,
+        "recommended_annual": 18000,
+        "annual_savings": 9600,
+        "success_fee_if_verified": 1920.0,
+        "evidence": [
+          {
+            "kind": "usage",
+            "source": "support_queue_activity.csv",
+            "finding": "Zendesk: 3 active agents; Intercom: 11"
+          },
+          {
+            "kind": "invoice",
+            "source": "ZEN-2026-06",
+            "finding": "$900 monthly duplicate support stack"
+          },
+          {
+            "kind": "migration",
+            "source": "queue-map.json",
+            "finding": "all active queues mapped to Intercom"
+          }
+        ],
+        "math": "$27,600 current - $18,000 recommended = $9,600 annual savings",
+        "risk": "medium",
+        "effort": "medium",
+        "approval_required": true,
+        "confidence": "medium"
+      },
+      {
+        "recommendation_id": "rec-005",
+        "action": "Downgrade Zoom licenses to external-facing teams only",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 7560,
+        "recommended_annual": 4200,
+        "annual_savings": 3360,
+        "success_fee_if_verified": 672.0,
+        "evidence": [
+          {
+            "kind": "usage",
+            "source": "Zoom meetings export",
+            "finding": "internal meetings migrated to Google Meet"
+          },
+          {
+            "kind": "invoice",
+            "source": "ZOOM-2026-06",
+            "finding": "$630 monthly plan"
+          },
+          {
+            "kind": "department",
+            "source": "sales-cs-roster.csv",
+            "finding": "external-facing users retained"
+          }
+        ],
+        "math": "$7,560 current - $4,200 recommended = $3,360 annual savings",
+        "risk": "low",
+        "effort": "low",
+        "approval_required": true,
+        "confidence": "high"
+      },
+      {
+        "recommendation_id": "rec-006",
+        "action": "Close Dropbox legacy storage after Google Drive migration",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 17496,
+        "recommended_annual": 12096,
+        "annual_savings": 5400,
+        "success_fee_if_verified": 1080.0,
+        "evidence": [
+          {
+            "kind": "usage",
+            "source": "Dropbox last access report",
+            "finding": "8 active users / 45 paid seats"
+          },
+          {
+            "kind": "invoice",
+            "source": "DROP-2026-06",
+            "finding": "$450 monthly legacy storage"
+          },
+          {
+            "kind": "control",
+            "source": "Google Drive retention policy",
+            "finding": "migration control already active"
+          }
+        ],
+        "math": "$17,496 current - $12,096 recommended = $5,400 annual savings",
+        "risk": "low",
+        "effort": "medium",
+        "approval_required": true,
+        "confidence": "high"
+      },
+      {
+        "recommendation_id": "rec-007",
+        "action": "Reduce Loom, Calendly, Airtable, Miro, Lucidchart unused seats",
+        "waste_type": "duplicate_tool_or_unused_seats",
+        "current_annual": 29280,
+        "recommended_annual": 16680,
+        "annual_savings": 12600,
+        "success_fee_if_verified": 2520.0,
+        "evidence": [
+          {
+            "kind": "usage",
+            "source": "collab_app_rollup.csv",
+            "finding": "combined utilization under 45%"
+          },
+          {
+            "kind": "invoice",
+            "source": "multi-vendor bundle",
+            "finding": "Loom/Calendly/Airtable/Miro/Lucidchart monthly spend"
+          },
+          {
+            "kind": "owner",
+            "source": "department owners",
+            "finding": "clear owner groups for true-up"
+          }
+        ],
+        "math": "$29,280 current - $16,680 recommended = $12,600 annual savings",
+        "risk": "low",
+        "effort": "low",
+        "approval_required": true,
+        "confidence": "high"
+      }
+    ],
+    "blocked_recommendations": [
+      {
+        "id": "blocked-001",
+        "action": "Cancel Slack Enterprise add-ons",
+        "tempting_savings": 9360,
+        "decision": "blocked",
+        "why": "Legal hold, executive workspace dependencies, and security retention requirements make the cut unsafe without a workspace-level review.",
+        "evidence": [
+          {
+            "kind": "policy",
+            "source": "legal-hold-register.csv",
+            "finding": "12 channels under active legal hold"
+          },
+          {
+            "kind": "usage",
+            "source": "exec-workspace-map.csv",
+            "finding": "executive workspace automation depends on enterprise workflow add-ons"
+          }
+        ]
+      }
+    ],
+    "dry_run_manifests": [
+      {
+        "action_id": "act-001",
+        "step": "Open cancellation workflow for New Relic monthly plan",
+        "target_system": "open",
+        "mode": "dry_run",
+        "approval_required": true,
+        "rollback": "restore prior seat map / reopen subscription within vendor grace period",
+        "created_at": "2026-06-28T18:09:58Z",
+        "signature": "dryrun_6dd15b7e1ff14f8d"
+      },
+      {
+        "action_id": "act-002",
+        "step": "Generate Monday.com to Asana migration checklist",
+        "target_system": "generate",
+        "mode": "dry_run",
+        "approval_required": false,
+        "rollback": "restore prior seat map / reopen subscription within vendor grace period",
+        "created_at": "2026-06-28T18:09:58Z",
+        "signature": "dryrun_f8bed42146595966"
+      },
+      {
+        "action_id": "act-003",
+        "step": "Draft Figma seat true-up CSV for procurement admin",
+        "target_system": "draft",
+        "mode": "dry_run",
+        "approval_required": true,
+        "rollback": "restore prior seat map / reopen subscription within vendor grace period",
+        "created_at": "2026-06-28T18:09:58Z",
+        "signature": "dryrun_1893991833d7e3d0"
+      },
+      {
+        "action_id": "act-004",
+        "step": "Create Zendesk-to-Intercom queue routing plan",
+        "target_system": "create",
+        "mode": "dry_run",
+        "approval_required": false,
+        "rollback": "restore prior seat map / reopen subscription within vendor grace period",
+        "created_at": "2026-06-28T18:09:58Z",
+        "signature": "dryrun_5284aeb138531699"
+      },
+      {
+        "action_id": "act-005",
+        "step": "Prepare Stripe success-fee checkout for approved savings audit",
+        "target_system": "prepare",
+        "mode": "dry_run",
+        "approval_required": false,
+        "rollback": "restore prior seat map / reopen subscription within vendor grace period",
+        "created_at": "2026-06-28T18:09:58Z",
+        "signature": "dryrun_232be3dc93c2c80f"
+      }
+    ],
+    "run_log": [
+      {
+        "t_plus_sec": 0,
+        "event": "Load SaaS spend seed + usage logs",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 7,
+        "event": "Normalize 20 vendors / 72 employees / duplicate categories",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 14,
+        "event": "Savings Hunter proposes candidate reductions",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 21,
+        "event": "Finance Auditor recomputes fee basis",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 28,
+        "event": "IT Reviewer prepares dry-run manifests",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 35,
+        "event": "Risk Reviewer blocks unsafe Slack reduction",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 42,
+        "event": "Aggregator approves seven savings actions",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 49,
+        "event": "Stripe-style success fee event recorded",
+        "status": "ok"
+      },
+      {
+        "t_plus_sec": 56,
+        "event": "Agent P&L and buyer delivery pack generated",
+        "status": "ok"
+      }
+    ],
+    "agent_pnl": {
+      "gross_annual_savings": 62880,
+      "success_fee": 12576.0,
+      "customer_net_first_year_value": 50304.0,
+      "agent_operating_cost": 34.2,
+      "contribution_margin": 12541.8,
+      "cost_per_1000_savings": 0.54,
+      "roi_multiple": 1838.6,
+      "tool_calls": 27,
+      "runtime_seconds": 68
+    },
+    "public_price_sources": {
+      "Asana": {
+        "url": "https://asana.com/pricing",
+        "status": 200,
+        "checked_at": "2026-06-28T18:09:59Z"
+      },
+      "Figma": {
+        "url": "https://www.figma.com/pricing/",
+        "status": 200,
+        "checked_at": "2026-06-28T18:09:59Z"
+      },
+      "Zoom": {
+        "url": "https://www.zoom.us/pricing",
+        "status": 200,
+        "checked_at": "2026-06-28T18:10:00Z"
+      },
+      "Datadog": {
+        "url": "https://www.datadoghq.com/pricing/",
+        "status": 200,
+        "checked_at": "2026-06-28T18:10:00Z"
+      },
+      "Intercom": {
+        "url": "https://www.intercom.com/pricing",
+        "status": 200,
+        "checked_at": "2026-06-28T18:10:00Z"
+      },
+      "Slack": {
+        "url": "https://slack.com/pricing",
+        "status": 200,
+        "checked_at": "2026-06-28T18:10:01Z"
+      }
+    },
+    "next_run_at": "2026-06-28T19:09:58Z"
+  },
+  "lab": {
+    "generated_at": "2026-06-28T18:10:01Z",
+    "host": "macOS-26.5.1-arm64-arm-64bit",
+    "nvidia": {
+      "available": false,
+      "reason": "nvidia-smi not found on this runner"
+    },
+    "cpu_fallback_benchmark": {
+      "elapsed_seconds": 0.0084,
+      "checksum": 598096294,
+      "ops_per_second": 14236775.4
+    },
+    "deployment_story": "Procurement evidence contains contracts, pricing and vendor terms. The production path is local/private inference on NVIDIA-class hardware; this runner records CPU fallback when no NVIDIA GPU is attached."
   },
   "format": {
     "before": "$235,416",

@@ -1,0 +1,36 @@
+name: Otto Procurement autonomous cycle
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run deterministic procurement cycle
+        run: |
+          python3 scripts/fetch_saas_spend.py
+          # MoA CLI is not available in GitHub Actions; use deterministic fallback output for the scheduled public demo.
+          python3 scripts/run_moa_saas_audit.py || true
+          python3 scripts/run_business_ops.py
+          python3 scripts/generate_evidence_pack.py
+          python3 scripts/render_site.py
+          rm -rf docs
+          cp -R site docs
+          touch docs/.nojekyll
+      - name: Commit refreshed public artifacts
+        run: |
+          git config user.name "otto-procurement-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data site docs
+          git diff --cached --quiet || git commit -m "chore: autonomous procurement cycle"
+          git push

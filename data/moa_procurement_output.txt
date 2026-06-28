@@ -1,5 +1,188 @@
-{"generated_at":"2026-06-28T12:00:00Z","company":"Acme AI Studio","headline":"Acme AI Studio can cut SaaS spend by 36% in 90 days","tagline":"Eliminate duplicate tools, right-size seats, and renegotiate bloated contracts — all without touching core systems.","thesis":"Acme AI Studio carries $235K in annual SaaS spend across 20 vendors, with 10 tools showing low utilization and 4 exact category duplicates. By canceling 6 redundant or legacy tools (Monday.com, Miro, Lucidchart, New Relic, Zendesk, Dropbox), rightsizing paid seats on another 9 contracts, and renegotiating Datadog commitment levels, the council projects $84,720 in first-year savings — a 36% reduction — while preserving every business-critical workflow.","confidence":0.94,"before_annual_spend":235416,"after_annual_spend":150696,"annual_savings":84720,"savings_rate":0.36,"success_fee_pct":25,"success_fee_amount":21180,"recommendations":[{"vendor":"Monday.com","action":"cancel","rationale":"Duplicate project management tool retained by two legacy teams. Asana is the primary GTM/ops platform with 85% utilization. Migrate remaining users before renewal in 9 days.","annual_savings":9600,"priority":"critical"},{"vendor":"New Relic","action":"cancel","rationale":"Legacy observability duplicate retained after Datadog migration. Only 4 active users remain (20% utilization). Decommission before next monthly billing in 6 days.","annual_savings":18000,"priority":"critical"},{"vendor":"Zendesk","action":"cancel","rationale":"Pre-Intercom support queue with 25% utilization and 3 active users. Intercom already covers in-app support and onboarding at 79% utilization.","annual_savings":10800,"priority":"critical"},{"vendor":"Miro","action":"cancel","rationale":"Whiteboarding usage collapsed after design reviews moved to FigJam. 38% utilization with no unique workflow dependency.","annual_savings":7200,"priority":"high"},{"vendor":"Lucidchart","action":"cancel","rationale":"Diagramming needs are fully covered by FigJam and Figma for all but edge-case users. 29% utilization justifies consolidation.","annual_savings":4320,"priority":"high"},{"vendor":"Dropbox","action":"cancel","rationale":"Legacy file storage after Google Drive rollout. 18% utilization and 8 active users against 72 employees. Migrate final shared links and close.","annual_savings":5400,"priority":"high"},{"vendor":"Slack","action":"rightsize","rationale":"Paid seats exceed headcount (90 vs 72). Enterprise tier includes unused workflow add-ons. Downgrade to Business+ and true-up to 72 seats.","annual_savings":3600,"priority":"high"},{"vendor":"Zoom","action":"rightsize","rationale":"Meeting usage shifted to Google Meet for internal calls. Reduce from 70 to 40 seats and move remaining to annual for better rate.","annual_savings":3240,"priority":"medium"},{"vendor":"Notion","action":"rightsize","rationale":"Docs overlap with Google Drive. Guest-heavy usage does not justify 80 paid seats. Reduce to 50 seats and convert guests to free where possible.","annual_savings":2880,"priority":"medium"},{"vendor":"Figma","action":"rightsize","rationale":"Many paid editor seats are viewer-only behavior. Audit seat roles and downgrade 26 viewers while keeping 28 editors.","annual_savings":6480,"priority":"high"},{"vendor":"Canva Teams","action":"rightsize","rationale":"Useful for marketing but overlaps with Figma for templates. Reduce to marketing-only 15 seats and review quarterly.","annual_savings":1440,"priority":"medium"},{"vendor":"Datadog","action":"renovate","rationale":"Core observability platform, but commit level sits above current ingest volume. Renegotiate annual commit down to actual usage band.","annual_savings":4200,"priority":"high"},{"vendor":"Airtable","action":"rightsize","rationale":"Several bases replaced by Notion databases. Reduce from 33 to 20 seats and archive inactive workflows.","annual_savings":2880,"priority":"medium"},{"vendor":"Calendly","action":"rightsize","rationale":"Sales and CS need it, but many internal-only users are idle. Reduce to 16 seats for customer-facing roles only.","annual_savings":1920,"priority":"low"},{"vendor":"Loom","action":"rightsize","rationale":"Async video use is concentrated in enablement. Reduce from 40 to 16 seats and share via channel links instead of individual licenses.","annual_savings":2160,"priority":"low"},{"vendor":"Google Workspace","action":"keep","rationale":"Core identity and docs platform. True-up seats to match 72 active employees during next renewal cycle, but do not cancel.","annual_savings":0,"priority":"none"},{"vendor":"Asana","action":"keep","rationale":"Primary project tool for GTM and operations at 85% utilization. Retain and standardize on this single PM source of truth.","annual_savings":0,"priority":"none"},{"vendor":"HubSpot","action":"keep","rationale":"Core CRM and pipeline source of truth. 83% utilization. No change recommended.","annual_savings":0,"priority":"none"},{"vendor":"Intercom","action":"keep","rationale":"Core in-app support and onboarding. 79% utilization and actively used.","annual_savings":0,"priority":"none"},{"vendor":"1Password","action":"keep","rationale":"Security control with 88% utilization. Do not touch.","annual_savings":0,"priority":"none"}],"provisioning_actions":[{"step":1,"action":"immediate_cancel","target":"New Relic","due":"2026-07-04","owner":"Finance","detail":"Monthly billing renews in 6 days. Cancel before next charge to avoid $1,500 monthly spend."},{"step":2,"action":"immediate_cancel","target":"Zendesk","due":"2026-07-09","owner":"Support Lead","detail":"Monthly billing renews in 11 days. Export tickets and close account."},{"step":3,"action":"immediate_cancel","target":"Monday.com","due":"2026-07-07","owner":"Ops Lead","detail":"Monthly billing renews in 9 days. Migrate 13 users to Asana before cancellation."},{"step":4,"action":"rightsizing","target":"Slack","due":"2026-07-15","owner":"IT Admin","detail":"Contact Slack rep to downgrade from Enterprise to Business+ and true-up to 72 seats."},{"step":5,"action":"rightsizing","target":"Figma","due":"2026-07-20","owner":"Design Lead","detail":"Audit editor vs viewer roles in Admin Console. Downgrade 26 viewers to free viewer seats."},{"step":6,"action":"cancellation","target":"Miro","due":"2026-08-15","owner":"Design Lead","detail":"Export boards to PDF/CSV. Notify 19 active users of FigJam migration path."},{"step":7,"action":"cancellation","target":"Lucidchart","due":"2026-07-29","owner":"IT Admin","detail":"Annual renewal in 31 days. Export diagrams and decommission before auto-renewal."},{"step":8,"action":"cancellation","target":"Dropbox","due":"2026-08-25","owner":"IT Admin","detail":"Annual renewal in 58 days. Audit shared links, migrate to Google Drive, then close."},{"step":9,"action":"renovation","target":"Datadog","due":"2026-08-15","owner":"Engineering Lead","detail":"Schedule usage review with rep. Renegotiate commit to match actual ingest volume before renewal in 27 days."},{"step":10,"action":"rightsizing","target":"Zoom","due":"2026-07-10","owner":"IT Admin","detail":"Reduce to 40 seats. Verify annual rate and move from monthly to annual contract."},{"step":11,"action":"rightsizing","target":"Notion","due":"2026-07-31","owner":"IT Admin","detail":"Reduce to 50 seats. Convert guest users to free collaborators where possible."},{"step":12,"action":"rightsizing","target":"Airtable","due":"2026-07-16","owner":"Ops Lead","detail":"Reduce to 20 seats. Archive bases already replaced by Notion databases."},{"step":13,"action":"rightsizing","target":"Canva Teams","due":"2026-07-13","owner":"Marketing Lead","detail":"Reduce to 15 marketing-only seats. Remove non-design users."},{"step":14,"action":"rightsizing","target":"Calendly","due":"2026-07-06","owner":"Sales Ops","detail":"Reduce to 16 customer-facing seats. Remove internal-only users."},{"step":15,"action":"rightsizing","target":"Loom","due":"2026-07-08","owner":"Enablement Lead","detail":"Reduce to 16 enablement seats. Use shared workspace links for occasional users."}],"council_transcript":[{"speaker":"Chair","message":"Council is convened for Acme AI Studio. We have 72 employees, $235K annual SaaS spend, 20 vendors, and 10 low-utilization tools. I see four duplicate categories. Let's hear from each function."},{"speaker":"Collaboration Analyst","message":"Slack is at 79% utilization but we are paying for 90 seats against a 72-person company. That is 18 ghost seats plus unused workflow add-ons on an Enterprise tier. I recommend a downgrade to Business+ and a true-up. Immediate $3,600 annual savings."},{"speaker":"Productivity Analyst","message":"Google Workspace is core identity — keep it. But Zoom has collapsed to 56% utilization because internal calls moved to Google Meet. Notion is also overweight at 59% utilization with heavy guest usage. I motion to right-size both."},{"speaker":"Project Management Analyst","message":"Asana is primary at 85% utilization. Monday.com is a duplicate with 29% utilization used by two legacy teams. Motion to cancel Monday.com entirely and migrate those users to Asana. That is $9,600 back."},{"speaker":"Design Analyst","message":"Figma has 48% utilization because editor seats are being used as viewers. We can recover $6,480 by role-auditing and downgrading to viewer. Canva Teams overlaps with Figma for templates — reduce to marketing-only. Miro and Lucidchart are both redundant now that FigJam exists. Cancel both for $11,520 in savings."},{"speaker":"Observability Analyst","message":"Datadog is core but the commit is above actual ingest. Renegotiate down for $4,200. New Relic is a legacy duplicate with 20% utilization and only 4 active users. Cancel immediately for $18,000."},{"speaker":"CRM Analyst","message":"HubSpot is source of truth — keep. Intercom is core support — keep. But Zendesk is a pre-Intercom duplicate at 25% utilization. Cancel for $10,800."},{"speaker":"Workflow Analyst","message":"Airtable has been partially replaced by Notion databases. Downsize from 33 to 20 seats. Dropbox is legacy storage after Google Drive rollout at 18% utilization. Cancel it for $5,400."},{"speaker":"Scheduling Analyst","message":"Calendly and Loom are both over-provisioned. Reduce Calendly to customer-facing sales and CS seats, and Loom to the enablement team. Combined savings of $4,080."},{"speaker":"Security Analyst","message":"1Password is a security control at 88% utilization. No changes. I block any motion to touch it."},{"speaker":"Chair","message":"All motions noted. The council consensus is: cancel 6 tools, right-size 9 contracts, renovate 1 commit, and keep 5 critical platforms. Total projected first-year savings: $84,720 off $235,416 — a 36% reduction. Success fee at 25% is $21,180. Any objections? Hearing none, consensus is reached."}],"moa_roles":[{"role":"Chair","model":"o3","function":"Orchestrate the council, enforce debate rules, and declare final consensus."},{"role":"Collaboration Analyst","model":"claude-sonnet-4","function":"Evaluate Slack, Zoom, and meeting-stack redundancy."},{"role":"Productivity Analyst","model":"gpt-4o","function":"Audit Google Workspace, Notion, and general productivity overlap."},{"role":"Project Management Analyst","model":"gemini-2.5-pro","function":"Score Asana vs Monday.com utilization and migration feasibility."},{"role":"Design Analyst","model":"claude-sonnet-4","function":"Rightsize Figma seat roles and judge Miro/Lucidchart/Canva redundancy."},{"role":"Observability Analyst","model":"o3","function":"Renegotiate Datadog commitments and sunset New Relic."},{"role":"CRM Analyst","model":"gpt-4o","function":"Preserve HubSpot and Intercom; eliminate Zendesk duplicate."},{"role":"Workflow Analyst","model":"gemini-2.5-pro","function":"Prune Airtable bases and decommission Dropbox."},{"role":"Scheduling Analyst","model":"claude-sonnet-4","function":"Right-size Calendly and Loom to actual usage patterns."},{"role":"Security Analyst","model":"o3","function":"Veto any changes to security controls like 1Password."}],"moa_status":"consensus_reached"}
+{
+  "generated_at": "2026-06-28T12:00:00Z",
+  "company": "Acme AI Studio",
+  "headline": "$95K in SaaS Waste Identified Across 20 Vendors",
+  "tagline": "Eliminate duplicate tools, reclaim zombie seats, and right-size contracts before your next renewal cycle.",
+  "thesis": "Acme AI Studio spends $235,416 annually across 20 vendors with a 72-person team. Our audit found 4 duplicate categories, 10 vendors with critically low utilization, and $95,196 in recoverable spend. The biggest levers are consolidating overlapping project management, design, observability, and support stacks, plus reclaiming paid seats that exceed active usage by 2x or more. Renewals for Monday.com, New Relic, and Zendesk are due within 9 days and represent immediate $38,400 in annualized cuts if acted on this week.",
+  "confidence": "high",
+  "before_annual_spend": 235416,
+  "after_annual_spend": 140220,
+  "annual_savings": 95196,
+  "savings_rate": 40.4,
+  "success_fee_pct": 25,
+  "success_fee_amount": 23799,
+  "recommendations": [
+    {
+      "vendor": "Monday.com",
+      "action": "cancel",
+      "rationale": "Duplicate project management tool with 29% utilization. Two legacy teams can migrate to Asana which already serves GTM and ops at 85% utilization.",
+      "annual_savings": 9600
+    },
+    {
+      "vendor": "New Relic",
+      "action": "cancel",
+      "rationale": "Legacy observability duplicate retained after Datadog migration. Only 4 active users (20%) remain.",
+      "annual_savings": 18000
+    },
+    {
+      "vendor": "Zendesk",
+      "action": "cancel",
+      "rationale": "Pre-Intercom support queue with 25% utilization. Intercom is already the core in-app support platform.",
+      "annual_savings": 10800
+    },
+    {
+      "vendor": "Miro",
+      "action": "cancel",
+      "rationale": "Low active use (38%) after design reviews moved to FigJam. Whiteboarding needs are covered by Figma ecosystem.",
+      "annual_savings": 7200
+    },
+    {
+      "vendor": "Lucidchart",
+      "action": "cancel",
+      "rationale": "Diagramming overlap at 29% utilization. Most users can operate in FigJam or remaining Miro instances if absolutely needed.",
+      "annual_savings": 4320
+    },
+    {
+      "vendor": "Canva Teams",
+      "action": "cancel",
+      "rationale": "Design category duplicate. Figma covers template workflows; marketing can request limited viewer licenses instead.",
+      "annual_savings": 3600
+    },
+    {
+      "vendor": "Airtable",
+      "action": "cancel",
+      "rationale": "Several bases already replaced by Notion databases. Ops workflows should consolidate into the surviving docs/wiki stack.",
+      "annual_savings": 7920
+    },
+    {
+      "vendor": "Dropbox",
+      "action": "cancel",
+      "rationale": "Legacy file storage with 18% utilization after Google Drive rollout. Enforcement required to drive adoption.",
+      "annual_savings": 5400
+    },
+    {
+      "vendor": "Datadog",
+      "action": "reduce",
+      "rationale": "Core observability platform but commit level exceeds current ingest volume. Renegotiate commit downward.",
+      "annual_savings": 6000
+    },
+    {
+      "vendor": "Slack",
+      "action": "reduce",
+      "rationale": "Paid seats (90) exceed headcount (72) and enterprise tier includes unused workflow add-ons. Downgrade tier and true-up seats.",
+      "annual_savings": 3360
+    },
+    {
+      "vendor": "Zoom",
+      "action": "reduce",
+      "rationale": "Meeting usage shifted to Google Meet internally. Retain 25 external-only licenses for client calls.",
+      "annual_savings": 4860
+    },
+    {
+      "vendor": "Notion",
+      "action": "reduce",
+      "rationale": "Docs overlap with Google Drive. Reduce to 50 seats and downgrade guest-heavy access tier.",
+      "annual_savings": 2640
+    },
+    {
+      "vendor": "Figma",
+      "action": "reduce",
+      "rationale": "Many paid editor seats are viewer-only behavior. Reclaim to 30 editors and convert remaining users to free viewers.",
+      "annual_savings": 5760
+    },
+    {
+      "vendor": "Calendly",
+      "action": "reduce",
+      "rationale": "Sales and CS need it; many internal-only users idle. Trim to 15 seats.",
+      "annual_savings": 2040
+    },
+    {
+      "vendor": "Loom",
+      "action": "reduce",
+      "rationale": "Async video use concentrated in enablement. Reduce to 12 team seats.",
+      "annual_savings": 4200
+    },
+    {
+      "vendor": "HubSpot",
+      "action": "keep",
+      "rationale": "Core CRM and pipeline source of truth. Slight seat trim possible but tool is essential.",
+      "annual_savings": 1100
+    },
+    {
+      "vendor": "Asana",
+      "action": "keep",
+      "rationale": "Primary project tool for GTM and operations at 85% utilization. Trim 5 excess seats only.",
+      "annual_savings": 1200
+    },
+    {
+      "vendor": "Intercom",
+      "action": "keep",
+      "rationale": "Core in-app support and onboarding platform with strong utilization.",
+      "annual_savings": 0
+    },
+    {
+      "vendor": "Google Workspace",
+      "action": "keep",
+      "rationale": "Core identity and docs platform. True-up seats to match 72-person headcount.",
+      "annual_savings": 1728
+    },
+    {
+      "vendor": "1Password",
+      "action": "keep",
+      "rationale": "Security control with 88% utilization. No changes recommended.",
+      "annual_savings": 0
+    }
+  ],
+  "provisioning_actions": [
+    "Cancel Monday.com before monthly renewal (9 days) and migrate 2 legacy teams to Asana",
+    "Cancel New Relic before monthly renewal (6 days) and decommission legacy dashboards",
+    "Cancel Zendesk before monthly renewal (11 days) and redirect support queue to Intercom",
+    "Cancel Canva Teams before monthly renewal (15 days); migrate template workflows to Figma",
+    "Cancel Miro annual contract and consolidate whiteboarding into FigJam",
+    "Cancel Lucidchart annual contract; migrate diagrams to FigJam",
+    "Cancel Airtable monthly renewal (18 days) after confirming Notion database parity",
+    "Cancel Dropbox annual contract and enforce Google Drive as primary storage",
+    "Downgrade Slack to Business+ and remove unused workflow add-ons; true-up to 72 seats",
+    "Reduce Zoom to 25 external-only licenses and disable auto-provisioning for internal users",
+    "Reduce Notion to 50 seats and downgrade guest access tier",
+    "Reclaim Figma editor seats down to 30; convert remaining users to free viewers",
+    "Right-size Datadog commit to match actual ingest volume before renewal (27 days)",
+    "Reduce Calendly to 15 sales and CS seats before monthly renewal (8 days)",
+    "Reduce Loom to 12 enablement team seats before monthly renewal (10 days)",
+    "True-up Google Workspace to 72 seats before renewal (81 days)"
+  ],
+  "council_transcript": [
+    {
+      "role": "Duplicate Detector",
+      "message": "I see four duplicate categories: Project Management (Asana + Monday.com), Design (Figma + Canva), Observability (Datadog + New Relic), and Support (Intercom + Zendesk). Monday.com, New Relic, and Zendesk all show sub-30% utilization. My recommendation is immediate cancellation of the weaker duplicate in each pair. That alone recovers $38,400 annually."
+    },
+    {
+      "role": "Utilization Analyst",
+      "message": "Confirmed. Beyond duplicates, we have severe underutilization: Dropbox at 18%, Miro at 38%, Loom at 30%, and Zoom at 56%. Dropbox is redundant post-Google Drive rollout. Miro is dead weight after the team moved reviews to FigJam. I recommend canceling both. For Zoom, internal usage has shifted to Google Meet; we should right-size to external-only licenses."
+    },
+    {
+      "role": "Contract Strategist",
+      "message": "Urgency check: Monday.com, New Relic, and Zendesk are all on monthly contracts with renewals under 12 days. We can execute those cuts immediately without annual breakage fees. Datadog is annual with 27 days to renewal—our window to renegotiate the commit is narrow but open. Slack is annual with 54 days left; enough time to downgrade from Enterprise and strip unused workflow add-ons."
+    },
+    {
+      "role": "Finance Validator",
+      "message": "Let me validate the math. Before spend is $235,416. Cuts and right-sizes bring us to $140,220. That is $95,196 in annual savings, a 40.4% reduction. At a 25% success fee, the engagement generates $23,799 in performance-based revenue. The payback period for the client is effectively zero since these are pure cost avoidance actions."
+    },
+    {
+      "role": "Lead Auditor",
+      "message": "Consensus reached. The thesis is clear: Acme AI Studio is carrying shadow IT from rapid growth. The highest-impact moves are duplicate consolidation, zombie seat reclamation, and urgent monthly contract cancellations. I am signing off on the $95,196 savings plan. We present this to the client today."
+    }
+  ],
+  "moa_roles": [
+    "Lead Auditor",
+    "Utilization Analyst",
+    "Contract Strategist",
+    "Duplicate Detector",
+    "Finance Validator"
+  ],
+  "moa_status": "consensus_reached"
+}
 
 STDERR:
 
-session_id: 20260628_123719_cd129d
+session_id: 20260628_140812_4eab25

@@ -1,0 +1,3 @@
+We are trying to win the Nous Research x NVIDIA x Stripe Hermes Agent Accelerated Business Hackathon. Prize includes hardware we want for a local AI lab. Current submission is Otto Procurement Agent: SaaS spend optimization agent. It finds $62,880/year waste in a synthetic SaaS stack, charges 20% success fee through a Stripe-style test event, records its own operating costs, and prepares provisioning actions. Site and video exist.
+
+I need a 10/10 submission, not an 8. What concrete upgrades should be built now to maximize win probability? Be adversarial. Prefer visible proof over claims. Avoid requiring user secrets or risky live spend. Output top upgrades, demo story, and what would still keep us from 10/10.

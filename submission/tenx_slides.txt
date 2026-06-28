@@ -1,0 +1,15 @@
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_01_hook.png'
+duration 10.549
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_02_replay.png'
+duration 15.823
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_03_council.png'
+duration 17.933
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_04_evidence.png'
+duration 21.097
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_05_manifests.png'
+duration 14.768
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_06_pnl.png'
+duration 14.768
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_07_dashboard.png'
+duration 10.549
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/tenx_slide_07_dashboard.png'

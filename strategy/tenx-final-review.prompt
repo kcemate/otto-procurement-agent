@@ -1,0 +1,9 @@
+You are the final judge panel for the Nous x NVIDIA x Stripe Hermes Agent hackathon. Evaluate the upgraded Otto Procurement Agent using only these verified facts:
+- Site local QA passed; GitHub Pages will be published from docs.
+- Product: replayable SaaS procurement micro-business.
+- Dashboard includes: one-click replay log, seven evidence cards, blocked unsafe Slack recommendation, adversarial MoA council, signed dry-run manifests, treasury/P&L, public price source checks all HTTP 200, controls, and NVIDIA/private inference lane with CPU fallback benchmark.
+- Economics: full 20-vendor stack $235,416; approved savings $62,880; success fee $12,576; agent run cost $34.20; contribution margin $12,541.80; reinvestment $500; ending treasury $12,041.80.
+- Video: 106.07 sec, H.264 1920x1080 30fps AAC.
+- Repo includes Makefile one-command demo, GitHub Actions hourly cycle, Stripe checkout script that creates real test Checkout if key exists and refuses live keys.
+- Known caveat: demo dataset / test-mode economics; no live customer credentials.
+Score usefulness, viability, presentation 1-10. Identify only blockers that would prevent submission today. Recommend final X copy.

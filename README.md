@@ -1,26 +1,56 @@
 # Otto Procurement Agent
 
-Otto Procurement Agent is an autonomous SaaS-spend micro-business built for the Nous Research x NVIDIA x Stripe Hermes Agent Accelerated Business Hackathon.
+A replayable SaaS procurement micro-business built for the Nous Research x NVIDIA x Stripe Hermes Agent Accelerated Business Hackathon.
 
-It ingests a SaaS stack, uses Hermes MoA to identify wasted spend, packages the result as a paid savings audit, creates a Stripe-style success-fee checkout event, records revenue and agent operating costs, and prepares buyer delivery/provisioning actions.
+**Live demo:** https://kcemate.github.io/otto-procurement-agent/
 
-## Winning hook
+## What it proves
 
-"This agent audited a startup's SaaS stack, found tens of thousands in waste, and billed only when it saved money."
+Otto audits a synthetic-but-realistic 20-vendor SaaS stack, finds approved waste, blocks unsafe cuts, records an outcome-based success fee, debits its own operating costs, reinvests into the next scan, and signs dry-run action manifests for buyer approval.
 
-## MoA roles
+## Verified demo economics
 
-- Reference 1: `openai-codex:gpt-5.5`
-- Reference 2: `ollama-launch:glm-5.2:cloud`
-- Aggregator: `openai-codex:gpt-5.5`
+- Full SaaS stack: **$235,416/year**
+- Approved savings: **$62,880/year**
+- Success fee: **$12,576** / 20% of approved savings
+- Agent run cost: **$34.20**
+- Contribution margin: **$12,541.80**
+- Reinvestment: **$500** into next scan
+- Ending treasury: **$12,041.80**
+
+## 10x proof points
+
+- **Replay mode:** deterministic run log from raw evidence to fee event.
+- **Evidence cards:** every approved dollar ties to invoice, usage, owner, migration, or policy evidence.
+- **Adversarial MoA council:** savings hunter, finance auditor, IT reviewer, risk reviewer, and aggregator.
+- **Safety refusal:** a tempting Slack reduction is blocked due to legal hold and executive workspace dependencies.
+- **Dry-run manifests:** signed action packets with rollback paths; no destructive action executes without approval.
+- **Treasury/P&L:** revenue, operating costs, reinvestment, and ending balance.
+- **Public source checks:** benchmark vendor pricing endpoints are checked and rendered.
+- **Private inference lane:** NVIDIA/local-lab deployment path is instrumented; CPU fallback benchmark is recorded when no NVIDIA GPU is attached.
+- **One-command demo:** `make demo && make verify`.
+- **Autonomy loop:** GitHub Actions hourly cycle refreshes public artifacts.
 
 ## Run locally
 
 ```bash
-python3 scripts/run_full_cycle.py
-cd site && python3 -m http.server 8791 --bind 127.0.0.1
+make demo
+make verify
+make serve
 ```
 
-## Safety
+Open http://127.0.0.1:8791.
 
-No proprietary company data. The dataset is synthetic but realistic. No live spend without explicit human approval. If a Stripe test key is present, the code can create a Stripe test Checkout session; otherwise it generates a signed local Stripe-style test event and labels it honestly.
+## Stripe
+
+The public demo uses a signed Stripe-style test event. If a Stripe test key is configured, the checkout helper creates a real Checkout Session:
+
+```bash
+STRIPE_SECRET_KEY=sk_test_... python3 scripts/create_stripe_checkout.py
+```
+
+Live keys are refused by default.
+
+## Safety / disclosure
+
+The demo uses public/synthetic data and test-mode economics. Live customer-facing changes remain behind human approval. Dry-run manifests include signatures and rollback paths but do not execute destructive actions.
