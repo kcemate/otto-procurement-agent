@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T12:00:00Z",
+  "generated_at": "2026-06-28T18:19:25Z",
   "company": "Acme AI Studio",
   "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
   "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
@@ -164,8 +164,8 @@
     "aggregator": "openai-codex:gpt-5.5"
   },
   "moa_status": {
-    "model_note": "consensus_reached",
-    "parsed": true,
-    "raw_excerpt": "{\n  \"generated_at\": \"2026-06-28T12:00:00Z\",\n  \"company\": \"Acme AI Studio\",\n  \"headline\": \"$95K in SaaS Waste Identified Across 20 Vendors\",\n  \"tagline\": \"Eliminate duplicate tools, reclaim zombie seats, and right-size contracts before your next renewal cycle.\",\n  \"thesis\": \"Acme AI Studio spends $235,416 annually across 20 vendors with a 72-person team. Our audit found 4 duplicate categories, 10 vendors with critically low utilization, and $95,196 in recoverable spend. The biggest levers are consolidating overlapping project management, design, observability, and support stacks, plus reclaiming paid seats that exceed active usage by 2x or more. Renewals for Monday.com, New Relic, and Zendesk are due within 9 days and represent immediate $38,400 in annualized cuts if acted on this week.\",\n "
+    "parsed": false,
+    "fallback_reason": "FileNotFoundError(2, 'No such file or directory')",
+    "raw_excerpt": ""
   }
 }
