@@ -22,5 +22,5 @@ verify:
 
 package:
 	rm -f submission/otto-procurement-submission-package.zip
-	zip -r submission/otto-procurement-submission-package.zip README.md data scripts site docs .github Makefile submission/video_script.md submission/x_post.md submission/x_post_short.md submission/discord_submission.md submission/form_answers.md submission/otto-procurement-tenx-demo.mp4 submission/tenx-site-screenshot.png submission/tenx-github-pages-screenshot.png strategy/10x-gap-analysis.md strategy/council-10x.md -x '*/.herenow/*' '*/.herenow' >/tmp/otto_procurement_zip.log
+	zip -r submission/otto-procurement-submission-package.zip README.md data scripts site docs .github Makefile submission/video_script.md submission/x_post.md submission/x_post_short.md submission/discord_submission.md submission/form_answers.md submission/otto-procurement-tenx-demo.mp4 submission/otto-procurement-cinematic-x-demo.mp4 submission/cinematic_video_notes.md submission/cinematic_voiceover.txt submission/cinematic_voiceover.ogg submission/cinematic_background.jpg submission/mobile-live-dashboard.png submission/cinematic-contact-sheet-final.jpg submission/tenx-site-screenshot.png submission/tenx-github-pages-screenshot.png strategy/10x-gap-analysis.md strategy/council-10x.md -x '*/.herenow/*' '*/.herenow' >/tmp/otto_procurement_zip.log
 	@echo "package_ok"
