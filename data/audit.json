@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-06-28T12:00:00Z",
+  "company": "Acme AI Studio",
+  "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
+  "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
+  "thesis": "SaaS bloat is a better hackathon business target because the pain is universal, the savings are visible, and the Stripe success-fee loop is native.",
+  "confidence": 0.86,
+  "before_annual_spend": 235416,
+  "after_annual_spend": 172536,
+  "annual_savings": 62880,
+  "savings_rate": 0.2671,
+  "success_fee_pct": 0.2,
+  "success_fee_amount": 12576.0,
+  "recommendations": [
+    {
+      "id": "rec-001",
+      "action": "Retire New Relic after Datadog migration",
+      "vendors": [
+        "Datadog",
+        "New Relic"
+      ],
+      "before_annual": 60000,
+      "after_annual": 42000,
+      "annual_savings": 18000,
+      "effort": "low",
+      "risk": "low",
+      "why": "New Relic has 20% utilization and duplicates Datadog."
+    },
+    {
+      "id": "rec-002",
+      "action": "Cancel Monday.com and consolidate project work into Asana",
+      "vendors": [
+        "Asana",
+        "Monday.com"
+      ],
+      "before_annual": 24000,
+      "after_annual": 15840,
+      "annual_savings": 8160,
+      "effort": "medium",
+      "risk": "medium",
+      "why": "Monday.com has 29% utilization and overlaps with Asana."
+    },
+    {
+      "id": "rec-003",
+      "action": "Right-size Figma paid editor seats from 54 to 30",
+      "vendors": [
+        "Figma"
+      ],
+      "before_annual": 12960,
+      "after_annual": 7200,
+      "annual_savings": 5760,
+      "effort": "low",
+      "risk": "low",
+      "why": "Viewer-only behavior on paid editor seats; keep designers and PM editors."
+    },
+    {
+      "id": "rec-004",
+      "action": "Retire Zendesk and route remaining queues to Intercom",
+      "vendors": [
+        "Intercom",
+        "Zendesk"
+      ],
+      "before_annual": 27600,
+      "after_annual": 18000,
+      "annual_savings": 9600,
+      "effort": "medium",
+      "risk": "medium",
+      "why": "Zendesk has 25% utilization and duplicates Intercom."
+    },
+    {
+      "id": "rec-005",
+      "action": "Downgrade Zoom licenses to external-facing teams only",
+      "vendors": [
+        "Zoom"
+      ],
+      "before_annual": 7560,
+      "after_annual": 4200,
+      "annual_savings": 3360,
+      "effort": "low",
+      "risk": "low",
+      "why": "Only 39 of 70 seats active; internal calls shifted to Google Meet."
+    },
+    {
+      "id": "rec-006",
+      "action": "Close Dropbox legacy storage after Google Drive migration",
+      "vendors": [
+        "Dropbox",
+        "Google Workspace"
+      ],
+      "before_annual": 17496,
+      "after_annual": 12096,
+      "annual_savings": 5400,
+      "effort": "medium",
+      "risk": "low",
+      "why": "Dropbox has 18% utilization after Google Drive rollout."
+    },
+    {
+      "id": "rec-007",
+      "action": "Reduce Loom, Calendly, Airtable, Miro, Lucidchart unused seats",
+      "vendors": [
+        "Loom",
+        "Calendly",
+        "Airtable",
+        "Miro",
+        "Lucidchart"
+      ],
+      "before_annual": 29280,
+      "after_annual": 16680,
+      "annual_savings": 12600,
+      "effort": "low",
+      "risk": "low",
+      "why": "Low-utilization collaboration tools with clear owner groups."
+    }
+  ],
+  "provisioning_actions": [
+    {
+      "step": "Open cancellation workflow for New Relic monthly plan",
+      "owner": "agent",
+      "status": "prepared",
+      "approval_required": true
+    },
+    {
+      "step": "Generate Monday.com to Asana migration checklist",
+      "owner": "agent",
+      "status": "prepared",
+      "approval_required": false
+    },
+    {
+      "step": "Draft Figma seat true-up CSV for procurement admin",
+      "owner": "agent",
+      "status": "prepared",
+      "approval_required": true
+    },
+    {
+      "step": "Create Zendesk-to-Intercom queue routing plan",
+      "owner": "agent",
+      "status": "prepared",
+      "approval_required": false
+    },
+    {
+      "step": "Prepare Stripe success-fee checkout for approved savings audit",
+      "owner": "agent",
+      "status": "prepared",
+      "approval_required": false
+    }
+  ],
+  "council_transcript": [
+    {
+      "model": "Reference 1 - GPT-5.5",
+      "position": "Prioritize duplicate systems and contractual timing; avoid cutting security and identity tools."
+    },
+    {
+      "model": "Reference 2 - GLM 5.2 Cloud",
+      "position": "Rank each recommendation by implementation risk, buyer effort, and visible annualized savings."
+    },
+    {
+      "model": "Aggregator - GPT-5.5",
+      "position": "Approved seven recommendations with high savings, low operational risk, and clear Stripe success-fee economics."
+    }
+  ],
+  "moa_roles": {
+    "reference_1": "openai-codex:gpt-5.5",
+    "reference_2": "ollama-launch:glm-5.2:cloud",
+    "aggregator": "openai-codex:gpt-5.5"
+  },
+  "moa_status": {
+    "model_note": "consensus_reached",
+    "parsed": true,
+    "raw_excerpt": "{\"generated_at\":\"2026-06-28T12:00:00Z\",\"company\":\"Acme AI Studio\",\"headline\":\"Acme AI Studio can cut SaaS spend by 36% in 90 days\",\"tagline\":\"Eliminate duplicate tools, right-size seats, and renegotiate bloated contracts \u2014 all without touching core systems.\",\"thesis\":\"Acme AI Studio carries $235K in annual SaaS spend across 20 vendors, with 10 tools showing low utilization and 4 exact category duplicates. By canceling 6 redundant or legacy tools (Monday.com, Miro, Lucidchart, New Relic, Zendesk, Dropbox), rightsizing paid seats on another 9 contracts, and renegotiating Datadog commitment levels, the council projects $84,720 in first-year savings \u2014 a 36% reduction \u2014 while preserving every business-critical workflow.\",\"confidence\":0.94,\"before_annual_spend\":235416,\"after_annual_spend\":150696"
+  }
+}

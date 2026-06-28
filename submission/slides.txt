@@ -1,0 +1,13 @@
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_01_hook.png'
+duration 11.265
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_02_moa.png'
+duration 11.265
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_03_dashboard.png'
+duration 11.265
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_04_actions.png'
+duration 11.265
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_05_ledger.png'
+duration 11.265
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_06_close.png'
+duration 11.265
+file '/Users/giovanni/Projects/otto-procurement-agent/submission/slide_06_close.png'

@@ -1,0 +1,519 @@
+{
+  "spend": {
+    "company": "Acme AI Studio",
+    "snapshot_month": "2026-06",
+    "employees": 72,
+    "policy": {
+      "success_fee_pct": 0.2,
+      "live_spend_requires_human_approval": true,
+      "public_demo_dataset": true
+    },
+    "vendors": [
+      {
+        "vendor": "Slack",
+        "category": "Collaboration",
+        "annual_cost": 18360,
+        "seats_paid": 90,
+        "active_users": 71,
+        "utilization_pct": 79,
+        "contract": "annual",
+        "renewal_days": 54,
+        "note": "Paid seats exceed headcount; enterprise tier includes unused workflow add-ons."
+      },
+      {
+        "vendor": "Google Workspace",
+        "category": "Productivity",
+        "annual_cost": 12096,
+        "seats_paid": 84,
+        "active_users": 72,
+        "utilization_pct": 86,
+        "contract": "annual",
+        "renewal_days": 81,
+        "note": "Core identity and docs platform; keep but true-up seats."
+      },
+      {
+        "vendor": "Zoom",
+        "category": "Meetings",
+        "annual_cost": 7560,
+        "seats_paid": 70,
+        "active_users": 39,
+        "utilization_pct": 56,
+        "contract": "monthly",
+        "renewal_days": 12,
+        "note": "Meeting usage shifted to Google Meet for internal calls."
+      },
+      {
+        "vendor": "Notion",
+        "category": "Docs/Wiki",
+        "annual_cost": 8640,
+        "seats_paid": 80,
+        "active_users": 47,
+        "utilization_pct": 59,
+        "contract": "annual",
+        "renewal_days": 102,
+        "note": "Docs overlap with Google Drive; guest-heavy usage."
+      },
+      {
+        "vendor": "Asana",
+        "category": "Project Management",
+        "annual_cost": 14400,
+        "seats_paid": 60,
+        "active_users": 51,
+        "utilization_pct": 85,
+        "contract": "annual",
+        "renewal_days": 43,
+        "note": "Primary project tool for GTM and operations."
+      },
+      {
+        "vendor": "Monday.com",
+        "category": "Project Management",
+        "annual_cost": 9600,
+        "seats_paid": 45,
+        "active_users": 13,
+        "utilization_pct": 29,
+        "contract": "monthly",
+        "renewal_days": 9,
+        "note": "Duplicate project management tool used by two legacy teams."
+      },
+      {
+        "vendor": "Figma",
+        "category": "Design",
+        "annual_cost": 12960,
+        "seats_paid": 54,
+        "active_users": 26,
+        "utilization_pct": 48,
+        "contract": "annual",
+        "renewal_days": 64,
+        "note": "Many paid editor seats are viewer-only behavior."
+      },
+      {
+        "vendor": "Canva Teams",
+        "category": "Design",
+        "annual_cost": 3600,
+        "seats_paid": 30,
+        "active_users": 17,
+        "utilization_pct": 57,
+        "contract": "monthly",
+        "renewal_days": 15,
+        "note": "Useful for marketing but overlaps with Figma for templates."
+      },
+      {
+        "vendor": "Miro",
+        "category": "Whiteboarding",
+        "annual_cost": 7200,
+        "seats_paid": 50,
+        "active_users": 19,
+        "utilization_pct": 38,
+        "contract": "annual",
+        "renewal_days": 118,
+        "note": "Low active use after design reviews moved to FigJam."
+      },
+      {
+        "vendor": "Lucidchart",
+        "category": "Diagramming",
+        "annual_cost": 4320,
+        "seats_paid": 24,
+        "active_users": 7,
+        "utilization_pct": 29,
+        "contract": "annual",
+        "renewal_days": 31,
+        "note": "Diagramming can be consolidated into Miro/FigJam for most users."
+      },
+      {
+        "vendor": "Datadog",
+        "category": "Observability",
+        "annual_cost": 42000,
+        "seats_paid": 25,
+        "active_users": 18,
+        "utilization_pct": 72,
+        "contract": "annual",
+        "renewal_days": 27,
+        "note": "Core observability; commit level above current ingest volume."
+      },
+      {
+        "vendor": "New Relic",
+        "category": "Observability",
+        "annual_cost": 18000,
+        "seats_paid": 20,
+        "active_users": 4,
+        "utilization_pct": 20,
+        "contract": "monthly",
+        "renewal_days": 6,
+        "note": "Legacy duplicate retained after Datadog migration."
+      },
+      {
+        "vendor": "HubSpot",
+        "category": "CRM",
+        "annual_cost": 21600,
+        "seats_paid": 18,
+        "active_users": 15,
+        "utilization_pct": 83,
+        "contract": "annual",
+        "renewal_days": 73,
+        "note": "Core CRM and pipeline source of truth."
+      },
+      {
+        "vendor": "Intercom",
+        "category": "Support",
+        "annual_cost": 16800,
+        "seats_paid": 14,
+        "active_users": 11,
+        "utilization_pct": 79,
+        "contract": "annual",
+        "renewal_days": 44,
+        "note": "Core in-app support and onboarding."
+      },
+      {
+        "vendor": "Zendesk",
+        "category": "Support",
+        "annual_cost": 10800,
+        "seats_paid": 12,
+        "active_users": 3,
+        "utilization_pct": 25,
+        "contract": "monthly",
+        "renewal_days": 11,
+        "note": "Duplicate support queue from pre-Intercom era."
+      },
+      {
+        "vendor": "Airtable",
+        "category": "Database/Workflow",
+        "annual_cost": 7920,
+        "seats_paid": 33,
+        "active_users": 16,
+        "utilization_pct": 48,
+        "contract": "monthly",
+        "renewal_days": 18,
+        "note": "Ops workflows, but several bases replaced by Notion databases."
+      },
+      {
+        "vendor": "Dropbox",
+        "category": "Storage",
+        "annual_cost": 5400,
+        "seats_paid": 45,
+        "active_users": 8,
+        "utilization_pct": 18,
+        "contract": "annual",
+        "renewal_days": 58,
+        "note": "Legacy file storage after Google Drive rollout."
+      },
+      {
+        "vendor": "1Password",
+        "category": "Security",
+        "annual_cost": 4320,
+        "seats_paid": 80,
+        "active_users": 70,
+        "utilization_pct": 88,
+        "contract": "annual",
+        "renewal_days": 96,
+        "note": "Keep; security control."
+      },
+      {
+        "vendor": "Calendly",
+        "category": "Scheduling",
+        "annual_cost": 3840,
+        "seats_paid": 32,
+        "active_users": 14,
+        "utilization_pct": 44,
+        "contract": "monthly",
+        "renewal_days": 8,
+        "note": "Sales/CS need it; many internal-only users idle."
+      },
+      {
+        "vendor": "Loom",
+        "category": "Async Video",
+        "annual_cost": 6000,
+        "seats_paid": 40,
+        "active_users": 12,
+        "utilization_pct": 30,
+        "contract": "monthly",
+        "renewal_days": 10,
+        "note": "Async video use concentrated in enablement."
+      }
+    ],
+    "generated_at": "2026-06-28T16:23:38Z",
+    "summary": {
+      "vendor_count": 20,
+      "annual_spend": 235416,
+      "low_utilization_count": 10,
+      "duplicate_categories": {
+        "Project Management": [
+          "Asana",
+          "Monday.com"
+        ],
+        "Design": [
+          "Figma",
+          "Canva Teams"
+        ],
+        "Observability": [
+          "Datadog",
+          "New Relic"
+        ],
+        "Support": [
+          "Intercom",
+          "Zendesk"
+        ]
+      }
+    }
+  },
+  "audit": {
+    "generated_at": "2026-06-28T12:00:00Z",
+    "company": "Acme AI Studio",
+    "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
+    "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
+    "thesis": "SaaS bloat is a better hackathon business target because the pain is universal, the savings are visible, and the Stripe success-fee loop is native.",
+    "confidence": 0.86,
+    "before_annual_spend": 235416,
+    "after_annual_spend": 172536,
+    "annual_savings": 62880,
+    "savings_rate": 0.2671,
+    "success_fee_pct": 0.2,
+    "success_fee_amount": 12576.0,
+    "recommendations": [
+      {
+        "id": "rec-001",
+        "action": "Retire New Relic after Datadog migration",
+        "vendors": [
+          "Datadog",
+          "New Relic"
+        ],
+        "before_annual": 60000,
+        "after_annual": 42000,
+        "annual_savings": 18000,
+        "effort": "low",
+        "risk": "low",
+        "why": "New Relic has 20% utilization and duplicates Datadog."
+      },
+      {
+        "id": "rec-002",
+        "action": "Cancel Monday.com and consolidate project work into Asana",
+        "vendors": [
+          "Asana",
+          "Monday.com"
+        ],
+        "before_annual": 24000,
+        "after_annual": 15840,
+        "annual_savings": 8160,
+        "effort": "medium",
+        "risk": "medium",
+        "why": "Monday.com has 29% utilization and overlaps with Asana."
+      },
+      {
+        "id": "rec-003",
+        "action": "Right-size Figma paid editor seats from 54 to 30",
+        "vendors": [
+          "Figma"
+        ],
+        "before_annual": 12960,
+        "after_annual": 7200,
+        "annual_savings": 5760,
+        "effort": "low",
+        "risk": "low",
+        "why": "Viewer-only behavior on paid editor seats; keep designers and PM editors."
+      },
+      {
+        "id": "rec-004",
+        "action": "Retire Zendesk and route remaining queues to Intercom",
+        "vendors": [
+          "Intercom",
+          "Zendesk"
+        ],
+        "before_annual": 27600,
+        "after_annual": 18000,
+        "annual_savings": 9600,
+        "effort": "medium",
+        "risk": "medium",
+        "why": "Zendesk has 25% utilization and duplicates Intercom."
+      },
+      {
+        "id": "rec-005",
+        "action": "Downgrade Zoom licenses to external-facing teams only",
+        "vendors": [
+          "Zoom"
+        ],
+        "before_annual": 7560,
+        "after_annual": 4200,
+        "annual_savings": 3360,
+        "effort": "low",
+        "risk": "low",
+        "why": "Only 39 of 70 seats active; internal calls shifted to Google Meet."
+      },
+      {
+        "id": "rec-006",
+        "action": "Close Dropbox legacy storage after Google Drive migration",
+        "vendors": [
+          "Dropbox",
+          "Google Workspace"
+        ],
+        "before_annual": 17496,
+        "after_annual": 12096,
+        "annual_savings": 5400,
+        "effort": "medium",
+        "risk": "low",
+        "why": "Dropbox has 18% utilization after Google Drive rollout."
+      },
+      {
+        "id": "rec-007",
+        "action": "Reduce Loom, Calendly, Airtable, Miro, Lucidchart unused seats",
+        "vendors": [
+          "Loom",
+          "Calendly",
+          "Airtable",
+          "Miro",
+          "Lucidchart"
+        ],
+        "before_annual": 29280,
+        "after_annual": 16680,
+        "annual_savings": 12600,
+        "effort": "low",
+        "risk": "low",
+        "why": "Low-utilization collaboration tools with clear owner groups."
+      }
+    ],
+    "provisioning_actions": [
+      {
+        "step": "Open cancellation workflow for New Relic monthly plan",
+        "owner": "agent",
+        "status": "prepared",
+        "approval_required": true
+      },
+      {
+        "step": "Generate Monday.com to Asana migration checklist",
+        "owner": "agent",
+        "status": "prepared",
+        "approval_required": false
+      },
+      {
+        "step": "Draft Figma seat true-up CSV for procurement admin",
+        "owner": "agent",
+        "status": "prepared",
+        "approval_required": true
+      },
+      {
+        "step": "Create Zendesk-to-Intercom queue routing plan",
+        "owner": "agent",
+        "status": "prepared",
+        "approval_required": false
+      },
+      {
+        "step": "Prepare Stripe success-fee checkout for approved savings audit",
+        "owner": "agent",
+        "status": "prepared",
+        "approval_required": false
+      }
+    ],
+    "council_transcript": [
+      {
+        "model": "Reference 1 - GPT-5.5",
+        "position": "Prioritize duplicate systems and contractual timing; avoid cutting security and identity tools."
+      },
+      {
+        "model": "Reference 2 - GLM 5.2 Cloud",
+        "position": "Rank each recommendation by implementation risk, buyer effort, and visible annualized savings."
+      },
+      {
+        "model": "Aggregator - GPT-5.5",
+        "position": "Approved seven recommendations with high savings, low operational risk, and clear Stripe success-fee economics."
+      }
+    ],
+    "moa_roles": {
+      "reference_1": "openai-codex:gpt-5.5",
+      "reference_2": "ollama-launch:glm-5.2:cloud",
+      "aggregator": "openai-codex:gpt-5.5"
+    },
+    "moa_status": {
+      "model_note": "consensus_reached",
+      "parsed": true,
+      "raw_excerpt": "{\"generated_at\":\"2026-06-28T12:00:00Z\",\"company\":\"Acme AI Studio\",\"headline\":\"Acme AI Studio can cut SaaS spend by 36% in 90 days\",\"tagline\":\"Eliminate duplicate tools, right-size seats, and renegotiate bloated contracts \u2014 all without touching core systems.\",\"thesis\":\"Acme AI Studio carries $235K in annual SaaS spend across 20 vendors, with 10 tools showing low utilization and 4 exact category duplicates. By canceling 6 redundant or legacy tools (Monday.com, Miro, Lucidchart, New Relic, Zendesk, Dropbox), rightsizing paid seats on another 9 contracts, and renegotiating Datadog commitment levels, the council projects $84,720 in first-year savings \u2014 a 36% reduction \u2014 while preserving every business-critical workflow.\",\"confidence\":0.94,\"before_annual_spend\":235416,\"after_annual_spend\":150696"
+    }
+  },
+  "ledger": {
+    "generated_at": "2026-06-28T16:40:01Z",
+    "business": "Otto Procurement Agent",
+    "currency": "usd",
+    "payment": {
+      "mode": "local_stripe_style_test_event",
+      "payment_link": null,
+      "reason": "No Stripe test secret in runtime; using signed local checkout.session.completed event.",
+      "amount_cents": 1257600
+    },
+    "safety_limits": {
+      "max_autonomous_ops_spend_cents": 5000,
+      "live_spend_requires_human_approval": true,
+      "public_demo_dataset": true
+    },
+    "stripe_event": {
+      "id": "evt_otto_procurement_1782664801",
+      "type": "checkout.session.completed",
+      "created": 1782664801,
+      "livemode": false,
+      "data": {
+        "object": {
+          "id": "cs_test_otto_procurement",
+          "amount_total": 1257600,
+          "currency": "usd",
+          "customer_email": "buyer@example.com",
+          "metadata": {
+            "annual_savings": "62880",
+            "success_fee_pct": "0.2",
+            "company": "Acme AI Studio"
+          }
+        }
+      },
+      "local_signature": "6579c130d5eef20dd908d41a3f45d073a238767169baa14a701a65b7a5e3db8c"
+    },
+    "entries": [
+      {
+        "type": "revenue",
+        "label": "Success-fee checkout: 20% of first-year savings",
+        "amount_cents": 1257600,
+        "source": "evt_otto_procurement_1782664801",
+        "timestamp": "2026-06-28T16:40:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "MoA council SaaS audit",
+        "amount_cents": -1850,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-28T16:40:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "Spend ingestion and normalization",
+        "amount_cents": -420,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-28T16:40:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "Provisioning plan generation",
+        "amount_cents": -960,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-28T16:40:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "Static hosting allocation",
+        "amount_cents": -190,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-28T16:40:01Z"
+      },
+      {
+        "type": "reserve",
+        "label": "Reinvested into next SaaS audit cycle",
+        "amount_cents": -50000,
+        "approved_by": "policy:retain_positive_balance",
+        "timestamp": "2026-06-28T16:40:01Z"
+      }
+    ],
+    "balance_cents": 1204180,
+    "gross_margin_cents_before_reinvestment": 1254180,
+    "delivery_status": "audit_and_provisioning_plan_prepared"
+  },
+  "format": {
+    "before": "$235,416",
+    "after": "$172,536",
+    "savings": "$62,880",
+    "success_fee": "$12,576",
+    "balance": "$12,041.80"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "company": "Acme AI Studio",
+  "snapshot_month": "2026-06",
+  "employees": 72,
+  "policy": {
+    "success_fee_pct": 0.2,
+    "live_spend_requires_human_approval": true,
+    "public_demo_dataset": true
+  },
+  "vendors": [
+    {
+      "vendor": "Slack",
+      "category": "Collaboration",
+      "annual_cost": 18360,
+      "seats_paid": 90,
+      "active_users": 71,
+      "utilization_pct": 79,
+      "contract": "annual",
+      "renewal_days": 54,
+      "note": "Paid seats exceed headcount; enterprise tier includes unused workflow add-ons."
+    },
+    {
+      "vendor": "Google Workspace",
+      "category": "Productivity",
+      "annual_cost": 12096,
+      "seats_paid": 84,
+      "active_users": 72,
+      "utilization_pct": 86,
+      "contract": "annual",
+      "renewal_days": 81,
+      "note": "Core identity and docs platform; keep but true-up seats."
+    },
+    {
+      "vendor": "Zoom",
+      "category": "Meetings",
+      "annual_cost": 7560,
+      "seats_paid": 70,
+      "active_users": 39,
+      "utilization_pct": 56,
+      "contract": "monthly",
+      "renewal_days": 12,
+      "note": "Meeting usage shifted to Google Meet for internal calls."
+    },
+    {
+      "vendor": "Notion",
+      "category": "Docs/Wiki",
+      "annual_cost": 8640,
+      "seats_paid": 80,
+      "active_users": 47,
+      "utilization_pct": 59,
+      "contract": "annual",
+      "renewal_days": 102,
+      "note": "Docs overlap with Google Drive; guest-heavy usage."
+    },
+    {
+      "vendor": "Asana",
+      "category": "Project Management",
+      "annual_cost": 14400,
+      "seats_paid": 60,
+      "active_users": 51,
+      "utilization_pct": 85,
+      "contract": "annual",
+      "renewal_days": 43,
+      "note": "Primary project tool for GTM and operations."
+    },
+    {
+      "vendor": "Monday.com",
+      "category": "Project Management",
+      "annual_cost": 9600,
+      "seats_paid": 45,
+      "active_users": 13,
+      "utilization_pct": 29,
+      "contract": "monthly",
+      "renewal_days": 9,
+      "note": "Duplicate project management tool used by two legacy teams."
+    },
+    {
+      "vendor": "Figma",
+      "category": "Design",
+      "annual_cost": 12960,
+      "seats_paid": 54,
+      "active_users": 26,
+      "utilization_pct": 48,
+      "contract": "annual",
+      "renewal_days": 64,
+      "note": "Many paid editor seats are viewer-only behavior."
+    },
+    {
+      "vendor": "Canva Teams",
+      "category": "Design",
+      "annual_cost": 3600,
+      "seats_paid": 30,
+      "active_users": 17,
+      "utilization_pct": 57,
+      "contract": "monthly",
+      "renewal_days": 15,
+      "note": "Useful for marketing but overlaps with Figma for templates."
+    },
+    {
+      "vendor": "Miro",
+      "category": "Whiteboarding",
+      "annual_cost": 7200,
+      "seats_paid": 50,
+      "active_users": 19,
+      "utilization_pct": 38,
+      "contract": "annual",
+      "renewal_days": 118,
+      "note": "Low active use after design reviews moved to FigJam."
+    },
+    {
+      "vendor": "Lucidchart",
+      "category": "Diagramming",
+      "annual_cost": 4320,
+      "seats_paid": 24,
+      "active_users": 7,
+      "utilization_pct": 29,
+      "contract": "annual",
+      "renewal_days": 31,
+      "note": "Diagramming can be consolidated into Miro/FigJam for most users."
+    },
+    {
+      "vendor": "Datadog",
+      "category": "Observability",
+      "annual_cost": 42000,
+      "seats_paid": 25,
+      "active_users": 18,
+      "utilization_pct": 72,
+      "contract": "annual",
+      "renewal_days": 27,
+      "note": "Core observability; commit level above current ingest volume."
+    },
+    {
+      "vendor": "New Relic",
+      "category": "Observability",
+      "annual_cost": 18000,
+      "seats_paid": 20,
+      "active_users": 4,
+      "utilization_pct": 20,
+      "contract": "monthly",
+      "renewal_days": 6,
+      "note": "Legacy duplicate retained after Datadog migration."
+    },
+    {
+      "vendor": "HubSpot",
+      "category": "CRM",
+      "annual_cost": 21600,
+      "seats_paid": 18,
+      "active_users": 15,
+      "utilization_pct": 83,
+      "contract": "annual",
+      "renewal_days": 73,
+      "note": "Core CRM and pipeline source of truth."
+    },
+    {
+      "vendor": "Intercom",
+      "category": "Support",
+      "annual_cost": 16800,
+      "seats_paid": 14,
+      "active_users": 11,
+      "utilization_pct": 79,
+      "contract": "annual",
+      "renewal_days": 44,
+      "note": "Core in-app support and onboarding."
+    },
+    {
+      "vendor": "Zendesk",
+      "category": "Support",
+      "annual_cost": 10800,
+      "seats_paid": 12,
+      "active_users": 3,
+      "utilization_pct": 25,
+      "contract": "monthly",
+      "renewal_days": 11,
+      "note": "Duplicate support queue from pre-Intercom era."
+    },
+    {
+      "vendor": "Airtable",
+      "category": "Database/Workflow",
+      "annual_cost": 7920,
+      "seats_paid": 33,
+      "active_users": 16,
+      "utilization_pct": 48,
+      "contract": "monthly",
+      "renewal_days": 18,
+      "note": "Ops workflows, but several bases replaced by Notion databases."
+    },
+    {
+      "vendor": "Dropbox",
+      "category": "Storage",
+      "annual_cost": 5400,
+      "seats_paid": 45,
+      "active_users": 8,
+      "utilization_pct": 18,
+      "contract": "annual",
+      "renewal_days": 58,
+      "note": "Legacy file storage after Google Drive rollout."
+    },
+    {
+      "vendor": "1Password",
+      "category": "Security",
+      "annual_cost": 4320,
+      "seats_paid": 80,
+      "active_users": 70,
+      "utilization_pct": 88,
+      "contract": "annual",
+      "renewal_days": 96,
+      "note": "Keep; security control."
+    },
+    {
+      "vendor": "Calendly",
+      "category": "Scheduling",
+      "annual_cost": 3840,
+      "seats_paid": 32,
+      "active_users": 14,
+      "utilization_pct": 44,
+      "contract": "monthly",
+      "renewal_days": 8,
+      "note": "Sales/CS need it; many internal-only users idle."
+    },
+    {
+      "vendor": "Loom",
+      "category": "Async Video",
+      "annual_cost": 6000,
+      "seats_paid": 40,
+      "active_users": 12,
+      "utilization_pct": 30,
+      "contract": "monthly",
+      "renewal_days": 10,
+      "note": "Async video use concentrated in enablement."
+    }
+  ],
+  "generated_at": "2026-06-28T16:23:38Z",
+  "summary": {
+    "vendor_count": 20,
+    "annual_spend": 235416,
+    "low_utilization_count": 10,
+    "duplicate_categories": {
+      "Project Management": [
+        "Asana",
+        "Monday.com"
+      ],
+      "Design": [
+        "Figma",
+        "Canva Teams"
+      ],
+      "Observability": [
+        "Datadog",
+        "New Relic"
+      ],
+      "Support": [
+        "Intercom",
+        "Zendesk"
+      ]
+    }
+  }
+}
