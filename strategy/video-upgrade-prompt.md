@@ -1,0 +1,5 @@
+We need to upgrade the Otto Procurement Agent hackathon demo video. Current video is 106s, mostly static dark dashboard/slide cards with narration. User says: "Is this the best demo video you can come up with? Try harder, use all the design and video resources you have." We need a contest-winning native X video for Nous x NVIDIA x Stripe Hermes Agent hackathon.
+
+Product facts: agent audits 20-vendor SaaS stack ($235,416), finds $62,880/year waste, bills 20% success fee ($12,576), records $34.20 run cost, reinvests $500, blocks unsafe Slack reduction, renders replay log, evidence cards, MoA council, dry-run manifests, P&L, public price checks, NVIDIA/private inference lane. Site: https://kcemate.github.io/otto-procurement-agent/
+
+Task: design a much stronger 90-120 second video concept executable locally with PIL/ffmpeg/screenshots/TTS/design systems (Stripe, NVIDIA, Linear, Runway-style cinematic grammar). No paid external video gen unless explicitly necessary. Output: brutal critique of current video, winning structure, specific visual devices, VO script, motion plan, and what to avoid.
