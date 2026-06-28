@@ -3,4 +3,4 @@ Otto Procurement Agent for the @NousResearch x @NVIDIAAI x @stripe Hermes Agent 
 It audits a startup SaaS stack, finds wasted spend, creates a success-fee checkout, records its own operating costs, and prepares provisioning actions.
 
 Native demo video attached.
-Demo site: [paste durable site URL]
+Demo site: https://kcemate.github.io/otto-procurement-agent/
