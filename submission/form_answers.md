@@ -25,7 +25,7 @@ https://kcemate.github.io/otto-procurement-agent/
 https://github.com/kcemate/otto-procurement-agent
 
 ## X demo link
-[paste final X post URL]
+https://x.com/ai_aristocrat/status/2071323818313089500?s=46
 
 ## Data / safety disclosure
 The demo uses public/synthetic data and test-mode economics. Live customer-facing changes stay behind human approval. Dry-run manifests include rollback paths and signatures but do not execute destructive actions.

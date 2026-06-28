@@ -1,7 +1,6 @@
-Otto Procurement Agent for the @NousResearch x @NVIDIAAI x @stripe Hermes Agent hackathon.
+Otto Procurement Agent uses an adversarial MoA council to audit SaaS spend, find waste, block unsafe cuts, and bill a 20% success fee only after verified savings.
 
-It replays a SaaS audit, finds $62,880/year in waste, blocks unsafe cuts, records a $12,576 success-fee event, signs dry-run action manifests, and proves the agent P&L.
+Real agent P&L ↓
+https://kcemate.github.io/otto-procurement-agent/
 
-Native demo video attached.
-Demo site: https://kcemate.github.io/otto-procurement-agent/
-Repo: https://github.com/kcemate/otto-procurement-agent
+@NousResearch @NVIDIAAI @stripe
