@@ -230,7 +230,7 @@
         "note": "Async video use concentrated in enablement."
       }
     ],
-    "generated_at": "2026-06-28T23:33:55Z",
+    "generated_at": "2026-06-29T01:15:11Z",
     "summary": {
       "vendor_count": 20,
       "annual_spend": 235416,
@@ -256,7 +256,7 @@
     }
   },
   "audit": {
-    "generated_at": "2026-06-28T23:33:55Z",
+    "generated_at": "2026-06-28T12:00:00Z",
     "company": "Acme AI Studio",
     "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
     "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
@@ -411,23 +411,28 @@
         "position": "Rank each recommendation by implementation risk, buyer effort, and visible annualized savings."
       },
       {
+        "model": "Reference 3 - Nemotron 3 Ultra via Ollama Cloud",
+        "position": "Risk-review procurement actions and block unsafe cuts without legal-hold, rollback, and human-approval controls."
+      },
+      {
         "model": "Aggregator - GPT-5.5",
-        "position": "Approved seven recommendations with high savings, low operational risk, and clear Stripe success-fee economics."
+        "position": "Approved seven recommendations with high savings, low operational risk, clear Stripe success-fee economics, and Nemotron risk review."
       }
     ],
     "moa_roles": {
       "reference_1": "openai-codex:gpt-5.5",
       "reference_2": "ollama-launch:glm-5.2:cloud",
+      "reference_3": "ollama-launch:nemotron-3-ultra:cloud",
       "aggregator": "openai-codex:gpt-5.5"
     },
     "moa_status": {
-      "parsed": false,
-      "fallback_reason": "FileNotFoundError(2, 'No such file or directory')",
-      "raw_excerpt": ""
+      "model_note": "consensus_reached",
+      "parsed": true,
+      "raw_excerpt": "{\n  \"generated_at\": \"2026-06-28T12:00:00Z\",\n  \"company\": \"Acme AI Studio\",\n  \"headline\": \"Acme AI Studio Can Cut $90,416 from SaaS Spend in 90 Days\",\n  \"tagline\": \"Seven redundant tools, 10 low-utilization contracts, and 38.4% savings with zero engineering downtime.\",\n  \"thesis\": \"Acme AI Studio's $235K SaaS stack contains $57,720 in duplicate-category spend and another $33,696 in seat-level over-provisioning across 20 vendors. By eliminating legacy duplicates, right-sizing paid seats to active-employee baselines, and renegotiating the Datadog commit ahead of its 27-day renewal, the company can recover 38.4% of annual SaaS spend while preserving identity, CRM, observability, and security controls.\",\n  \"confidence\": 0.94,\n  \"before_annual_spend\": 235416,\n  \"after_annual_spend\": 145000,\n  \"a"
     }
   },
   "ledger": {
-    "generated_at": "2026-06-28T23:33:55Z",
+    "generated_at": "2026-06-29T01:18:50Z",
     "business": "Otto Procurement Agent",
     "currency": "usd",
     "payment": {
@@ -442,9 +447,9 @@
       "public_demo_dataset": true
     },
     "stripe_event": {
-      "id": "evt_otto_procurement_1782689635",
+      "id": "evt_otto_procurement_1782695930",
       "type": "checkout.session.completed",
-      "created": 1782689635,
+      "created": 1782695930,
       "livemode": false,
       "data": {
         "object": {
@@ -459,50 +464,50 @@
           }
         }
       },
-      "local_signature": "5e73a39fdbac7fd4c252e9bf06a677d32a3a8ed10e2840aab442c3206d0f357f"
+      "local_signature": "2e2b549745d5c28947851862e759871ced390ed65fec5968a19e7d8c46fe4844"
     },
     "entries": [
       {
         "type": "revenue",
         "label": "Success-fee checkout: 20% of first-year savings",
         "amount_cents": 1257600,
-        "source": "evt_otto_procurement_1782689635",
-        "timestamp": "2026-06-28T23:33:55Z"
+        "source": "evt_otto_procurement_1782695930",
+        "timestamp": "2026-06-29T01:18:50Z"
       },
       {
         "type": "spend",
         "label": "MoA council SaaS audit",
         "amount_cents": -1850,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T23:33:55Z"
+        "timestamp": "2026-06-29T01:18:50Z"
       },
       {
         "type": "spend",
         "label": "Spend ingestion and normalization",
         "amount_cents": -420,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T23:33:55Z"
+        "timestamp": "2026-06-29T01:18:50Z"
       },
       {
         "type": "spend",
         "label": "Provisioning plan generation",
         "amount_cents": -960,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T23:33:55Z"
+        "timestamp": "2026-06-29T01:18:50Z"
       },
       {
         "type": "spend",
         "label": "Static hosting allocation",
         "amount_cents": -190,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-28T23:33:55Z"
+        "timestamp": "2026-06-29T01:18:50Z"
       },
       {
         "type": "reserve",
         "label": "Reinvested into next SaaS audit cycle",
         "amount_cents": -50000,
         "approved_by": "policy:retain_positive_balance",
-        "timestamp": "2026-06-28T23:33:55Z"
+        "timestamp": "2026-06-29T01:18:50Z"
       }
     ],
     "balance_cents": 1204180,
@@ -510,7 +515,7 @@
     "delivery_status": "audit_and_provisioning_plan_prepared"
   },
   "evidence": {
-    "generated_at": "2026-06-28T23:33:57Z",
+    "generated_at": "2026-06-29T01:18:52Z",
     "replayable": true,
     "company": "Acme AI Studio",
     "evidence_cards": [
@@ -761,8 +766,8 @@
         "mode": "dry_run",
         "approval_required": true,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-28T23:33:55Z",
-        "signature": "dryrun_511a638ad3267ec1"
+        "created_at": "2026-06-29T01:18:50Z",
+        "signature": "dryrun_275ca8b7b87b102c"
       },
       {
         "action_id": "act-002",
@@ -771,8 +776,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-28T23:33:55Z",
-        "signature": "dryrun_402ae2cfabbd40d4"
+        "created_at": "2026-06-29T01:18:50Z",
+        "signature": "dryrun_aa8fa13b5a6c1974"
       },
       {
         "action_id": "act-003",
@@ -781,8 +786,8 @@
         "mode": "dry_run",
         "approval_required": true,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-28T23:33:55Z",
-        "signature": "dryrun_a3e23c3f61260e6f"
+        "created_at": "2026-06-29T01:18:50Z",
+        "signature": "dryrun_beba8463ccd4fc12"
       },
       {
         "action_id": "act-004",
@@ -791,8 +796,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-28T23:33:55Z",
-        "signature": "dryrun_850ee2b3597bb465"
+        "created_at": "2026-06-29T01:18:50Z",
+        "signature": "dryrun_6e8bcd3c98c786d9"
       },
       {
         "action_id": "act-005",
@@ -801,8 +806,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-28T23:33:55Z",
-        "signature": "dryrun_fdc34b1228a4eab5"
+        "created_at": "2026-06-29T01:18:50Z",
+        "signature": "dryrun_8d2b6b414c78a590"
       }
     ],
     "run_log": [
@@ -867,49 +872,120 @@
       "Asana": {
         "url": "https://asana.com/pricing",
         "status": 200,
-        "checked_at": "2026-06-28T23:33:56Z"
+        "checked_at": "2026-06-29T01:18:51Z"
       },
       "Figma": {
         "url": "https://www.figma.com/pricing/",
         "status": 200,
-        "checked_at": "2026-06-28T23:33:56Z"
+        "checked_at": "2026-06-29T01:18:51Z"
       },
       "Zoom": {
         "url": "https://www.zoom.us/pricing",
         "status": 200,
-        "checked_at": "2026-06-28T23:33:56Z"
+        "checked_at": "2026-06-29T01:18:51Z"
       },
       "Datadog": {
         "url": "https://www.datadoghq.com/pricing/",
         "status": 200,
-        "checked_at": "2026-06-28T23:33:56Z"
+        "checked_at": "2026-06-29T01:18:51Z"
       },
       "Intercom": {
         "url": "https://www.intercom.com/pricing",
         "status": 200,
-        "checked_at": "2026-06-28T23:33:56Z"
+        "checked_at": "2026-06-29T01:18:52Z"
       },
       "Slack": {
         "url": "https://slack.com/pricing",
         "status": 200,
-        "checked_at": "2026-06-28T23:33:57Z"
+        "checked_at": "2026-06-29T01:18:52Z"
       }
     },
-    "next_run_at": "2026-06-29T00:33:55Z"
+    "next_run_at": "2026-06-29T02:18:50Z"
   },
   "lab": {
-    "generated_at": "2026-06-28T18:10:01Z",
+    "generated_at": "2026-06-29T01:18:54Z",
     "host": "macOS-26.5.1-arm64-arm-64bit",
     "nvidia": {
       "available": false,
       "reason": "nvidia-smi not found on this runner"
     },
     "cpu_fallback_benchmark": {
-      "elapsed_seconds": 0.0084,
+      "elapsed_seconds": 0.0038,
       "checksum": 598096294,
-      "ops_per_second": 14236775.4
+      "ops_per_second": 31472660.9
     },
     "deployment_story": "Procurement evidence contains contracts, pricing and vendor terms. The production path is local/private inference on NVIDIA-class hardware; this runner records CPU fallback when no NVIDIA GPU is attached."
+  },
+  "nvidia": {
+    "generated_at": "2026-06-29T01:18:54Z",
+    "host": "macOS-26.5.1-arm64-arm-64bit",
+    "nvidia_gpu": {
+      "available": false,
+      "reason": "nvidia-smi not found on this runner"
+    },
+    "ollama": {
+      "available": true,
+      "nemotron_3_ultra_available": true,
+      "models": [
+        "nemotron-3-ultra:cloud",
+        "glm-5.1:cloud",
+        "nemotron-3-super:cloud",
+        "glm-5:cloud"
+      ]
+    },
+    "nemotron_3_ultra": {
+      "model": "ollama-launch:nemotron-3-ultra:cloud",
+      "role": "Risk Reviewer in Hermes MoA",
+      "status": "ok",
+      "verdict": "escalate",
+      "latency_seconds": 5.181
+    },
+    "nemoclaw": {
+      "runtime_installed": false,
+      "status": "scaffold_only_not_production_nemoclaw",
+      "policy_checks": [
+        "scope_check",
+        "rate_limit_policy",
+        "rollback_present",
+        "human_approval_required",
+        "dry_run_signature_present"
+      ],
+      "disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval."
+    },
+    "nvidia_skills": {
+      "generated_at": "2026-06-29T01:18:54Z",
+      "source": "https://github.com/nvidia/skills",
+      "command": "npx --yes skills add nvidia/skills --list --full-depth",
+      "status": "ok",
+      "installed_into_project": false,
+      "usage": "Catalog discovery proof for NVIDIA verified agent skills; no large skill payload is installed into this demo repo.",
+      "found_count": 225,
+      "sample_skills": [
+        "accelerated-computing-cudf",
+        "aiq-deploy",
+        "aiq-research",
+        "cudaq-guide",
+        "cufolio",
+        "cuopt-developer",
+        "cuopt-install",
+        "cuopt-numerical-optimization-api-c",
+        "cuopt-numerical-optimization-api-cli",
+        "cuopt-numerical-optimization-api-python",
+        "cuopt-numerical-optimization-formulation",
+        "cuopt-routing-api-python",
+        "cuopt-routing-formulation",
+        "cuopt-server-api-python",
+        "cuopt-server-common",
+        "cuopt-skill-evolution"
+      ],
+      "raw_excerpt": "\n\u001b[38;5;250m\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2557  \u2588\u2588\u2557\u2588\u2588\u2557\u2588\u2588\u2557     \u2588\u2588\u2557     \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u001b[0m\n\u001b[38;5;248m\u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255d\u2588\u2588\u2551 \u2588\u2588\u2554\u255d\u2588\u2588\u2551\u2588\u2588\u2551     \u2588\u2588\u2551     \u2588\u2588\u2554\u2550\u2550\u2550\u2550\u255d\u001b[0m\n\u001b[38;5;245m\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2554\u255d \u2588\u2588\u2551\u2588\u2588\u2551     \u2588\u2588\u2551     \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u001b[0m\n\u001b[38;5;243m\u255a\u2550\u2550\u2550\u2550\u2588\u2588\u2551\u2588\u2588\u2554\u2550\u2588\u2588\u2557 \u2588\u2588\u2551\u2588\u2588\u2551     \u2588\u2588\u2551     \u255a\u2550\u2550\u2550\u2550\u2588\u2588\u2551\u001b[0m\n\u001b[38;5;240m\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u2588\u2588\u2551  \u2588\u2588\u2557\u2588\u2588\u2551\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2557\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2551\u001b[0m\n\u001b[38;5;238m\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u255d\u255a\u2550\u255d  \u255a\u2550\u255d\u255a\u2550\u255d\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u255d\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u255d\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u255d\u001b[0m\n\n\u250c   skills \n\u2502\n\u2502  Tip: use the --yes (-y) and --global (-g) flags to install without prompts.\n\u001b[?25l\u2502\n\u25c7  Source: https://github.com/nvidia/skills.git\n\u001b[?25h\u001b[?25l\u2502\n\u25d2  Cloning repository\u001b[999D\u001b[J\u25d0  Cloning repository\u001b[999D\u001b[J\u25d3  Cloning repository\u001b[999D\u001b[J\u25d1  Cloning repository\u001b[999D\u001b[J\u25d2  Cloning repository\u001b[999D\u001b[J\u25d0  Cloning repository\u001b[999D\u001b[J\u25d3  Cloning repository\u001b[999D\u001b[J\u25d1  Cloning repository\u001b[999D\u001b[J\u25d2  Cloning repository.\u001b[999D\u001b[J\u25d0  Cloning repository.\u001b[999D\u001b[J\u25d3  Cloning repository.\u001b[999D\u001b[J\u25d1  Cloning repository.\u001b[999D\u001b[J\u25d2  Cloning repository.\u001b[999D\u001b[J\u25d0  Cloning repository.\u001b[999D\u001b[J\u25d3  Cloning repository.\u001b[999D\u001b[J\u25c7  Repository cloned\n\u001b[?25h\u001b[?25l\u2502\n\u001b[999D\u001b[J\u25d2  Discovering skills\u001b[999D\u001b[J\u25c7  Found 225 skills\n\u001b[?25h\n\u2502\n\u25c7  Available Skills\n\u2502\n\u2502    accelerated-computing-cudf\n\u2502\n\u2502      Official NVIDIA-authored guidance for NVIDIA cuDF GPU DataFrames, pandas acceleration, dask-cuDF, ETL, joins, groupby, CSV/Parquet I/O, nullable semantics, and multi-GPU DataFrame workloads.\n\u2502\n\u2502    aiq-deploy\n\u2502\n\u2502      Use when asked to install, deploy, run, validate, troubleshoot, or stop NVIDIA AI-Q Blueprint infrastructure.\n\u2502\n\u2502    aiq-research\n\u2502\n\u2502      Use when asked to run deep research or AI-Q research through a reachable NVIDIA AI-Q Blueprint backend.\n\u2502\n\u2502    cudaq-guide\n\u2502\n\u2502      CUDA-Q onboarding guide for installation, test programs, GPU simulation, QPU hardware, and quantum applications.\n\u2502\n\u2502    cufolio\n\u2502\n\u2502      Use when a user asks to build, optimize, backtest, rebalance, or analyze a stock portfolio with Mean-CVaR, efficient frontiers, scenario generation, or NVIDIA cuOpt.\n\u2502\n\u2502    cuopt-developer\n\u2502\n\u2502      Modify, build, test, debug, and contribute to NVIDIA cuOpt (C++/CUDA, Python, server, CI). Use for solver internals, PRs, DCO, and code conventions.\n\u2502\n\u2502    cuopt-install\n\u2502\n\u2502      Install cuOpt for Python, C, or server via pip, conda, or Docker; verify the install. For building cuOpt from source, see cuopt-developer.\n\u2502\n\u2502    cuopt-numerical-optimization-api-c\n\u2502\n\u2502      LP, MILP, and QP (beta) with cuOpt \u2014 C API only. Use when the user is embedding LP, MILP, or QP in C/C++.\n\u2502\n\u2502    cuopt-numerical-optimization-api-cli\n\u2502\n\u2502      LP, MILP, and QP (beta) with cuOpt \u2014 CLI only (MPS files, cuopt_cli). Use when the user is solving LP, MILP, or QP from MPS via command line.\n\u2502\n\u2502    cuopt-numerical-optimization-api-python\n\u2502\n\u2502      Solve LP, MILP, QP (beta) with cuOpt Python API \u2014 linear/quadratic objectives, integer variables, scheduling, portfolio, least squares.\n\u2502\n\u2502    cuopt-numerical-optimization-formulation\n\u2502\n\u2502      LP, MILP, QP \u2014 concepts, problem-text parsing, and formulation patterns (parameters, constraints, decisions, objective). Concepts only; no API.\n\u2502\n\u2502    cuopt-routing-api-python\n\u2502\n\u2502      Vehicle routing (VRP, TSP, PDP) with cuOpt \u2014 Python API only. Use when the user is building or solving routing in Python.\n\u2502\n\u2502    cuopt-routing-formulation\n\u2502\n\u2502      Vehicle routing (VRP, TSP, PDP) \u2014 problem types and data requirements. Domain concepts; no API or interface.\n\u2502\n\u2502    cuopt-server-api-python\n\u2502\n\u2502      cuOpt REST server \u2014 start server, endpoints, Python/curl client examples. Use when the user is deploying or calling the REST API.\n\u2502\n\u2502    cuopt-server-common\n\u2502\n\u2502      cuOpt REST server \u2014 what it does and how requests flow. Domain concepts; no deploy or client code.\n\u2502\n\u2502    cuopt-skill-evolution\n\u2502\n\u2502      After solving a non-trivial problem, detect generalizable learnings and propose skill updates. Always active \u2014 applies to every interaction.\n\u2502\n\u2502    cuopt-user-rules\n\u2502\n\u2502      Base rules for end users calling NVIDIA cuOpt (routing/LP/MILP/QP/install/server). Not for cuOpt internals \u2014 use cuopt-developer for those.\n\u2502\n\u2502    cupynumeric-hdf5\n\u2502\n\u2502      Read and write large cuPyNumeric arrays to HDF5 with Legate's parallel, distributed HDF5 I/O (legate.io.hdf5: to_file, from_file, from_file_batched). Use when a developer needs to save a cuPyNumeric array to an .h5/.hdf5 file, load an HDF5 dataset into a distributed cuPyNumeric array, read a large HDF5 dataset in chunks, hand arrays to an HPC pipeline as a single file, or accelerate HDF5 disk I/O with GPUDirect Storage (GDS). Do not use it for Parquet/cuDF/raw-binary or other sharded/custom layouts (see the cupynumeric-parallel-data-load skill), Zarr or object-store/S3 output, .npz or pickled archives, plain h5py without cuPyNumeric, or pure array compute such as FFT, matmul, or reductions.\n\u2502\n\u2502    cupynumeric-install\n\u2502\n\u2502      Install and verify cuPyNumeric for Python \u2014 requirements, commands, verification. Source builds are out of scope.\n\u2502\n\u2502    cupynumeric-migration-readiness\n\u2502\n\u2502      Pre-migration readiness assessor for porting NumPy to cuPyNumeric. Us"
+    },
+    "cpu_fallback_benchmark": {
+      "elapsed_seconds": 0.0051,
+      "checksum": 679924,
+      "ops_per_second": 31311920.5
+    },
+    "deployment_story": "Risk review routes through Nemotron 3 Ultra via Ollama Cloud. The demo records local NVIDIA GPU detection and CPU fallback. NemoClaw is represented as an honest compatibility scaffold, not a claimed production runtime."
   },
   "format": {
     "before": "$235,416",

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-28T18:10:01Z",
+  "generated_at": "2026-06-29T01:18:54Z",
   "host": "macOS-26.5.1-arm64-arm-64bit",
   "nvidia": {
     "available": false,
     "reason": "nvidia-smi not found on this runner"
   },
   "cpu_fallback_benchmark": {
-    "elapsed_seconds": 0.0084,
+    "elapsed_seconds": 0.0038,
     "checksum": 598096294,
-    "ops_per_second": 14236775.4
+    "ops_per_second": 31472660.9
   },
   "deployment_story": "Procurement evidence contains contracts, pricing and vendor terms. The production path is local/private inference on NVIDIA-class hardware; this runner records CPU fallback when no NVIDIA GPU is attached."
 }

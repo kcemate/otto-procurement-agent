@@ -1,17 +1,19 @@
 Submission: Otto Procurement Agent
 
-X demo link: https://x.com/ai_aristocrat/status/2071323818313089500?s=46
+X demo: https://x.com/ai_aristocrat/status/2071323818313089500?s=46
 
-Short description: Replayable SaaS procurement micro-business built with Hermes MoA, Stripe-style test economics, and an approval-gated operations layer. It ingests a 20-vendor SaaS stack, finds $62,880/year in waste, blocks unsafe savings, records a $12,576 success-fee event, debits its own operating costs, and signs dry-run action manifests.
+Replayable SaaS procurement micro-business with Hermes MoA + Nemotron 3 Ultra via Ollama Cloud. It ingests a 20-vendor SaaS stack, finds $62,880/year waste, blocks unsafe cuts, records a $12,576 success-fee event, debits operating costs, and signs dry-run manifests.
 
-Demo site: https://kcemate.github.io/otto-procurement-agent/
+Demo: https://kcemate.github.io/otto-procurement-agent/
 Repo: https://github.com/kcemate/otto-procurement-agent
 
-Why it matters:
-- Useful: every dollar has evidence cards from invoice, usage, owner, migration, or policy signals.
-- Viable: agent P&L shows customer net value, operating cost, contribution margin, and treasury after reinvestment.
-- Presentation: one-click replay mode, visible adversarial MoA council, blocked unsafe recommendation, and native X video.
+Proof points:
+- Nemotron 3 Ultra powers the Risk Reviewer MoA role.
+- NemoClaw-compatible safety instrumentation scaffolds policy checks before action manifests.
+- GPU probe detects local NVIDIA hardware and records fallback-to-cloud/CPU status.
+- NVIDIA verified skills catalog discovery is recorded in the repo.
+- Evidence cards, blocked recommendation, agent P&L, replay mode, native X video.
 
-MoA roles: GPT-5.5 reference + GLM 5.2 Cloud reference -> GPT-5.5 aggregator.
+MoA: GPT-5.5 + GLM 5.2 Cloud + Nemotron 3 Ultra -> GPT-5.5 aggregator.
 
-Notes: Demo uses public/synthetic data and test-mode economics. Live customer-facing actions remain behind human approval.
+Notes: Synthetic/test-mode data. Live actions require human approval. NemoClaw runtime is scaffolded, not claimed as full production runtime.

@@ -22,8 +22,9 @@ Otto audits a synthetic-but-realistic 20-vendor SaaS stack, finds approved waste
 
 - **Replay mode:** deterministic run log from raw evidence to fee event.
 - **Evidence cards:** every approved dollar ties to invoice, usage, owner, migration, or policy evidence.
-- **Adversarial MoA council:** savings hunter, finance auditor, IT reviewer, risk reviewer, and aggregator.
+- **Adversarial MoA council:** GPT-5.5, GLM 5.2 Cloud, and Nemotron 3 Ultra risk review.
 - **Safety refusal:** a tempting Slack reduction is blocked due to legal hold and executive workspace dependencies.
+- **NVIDIA integration proof:** Nemotron 3 Ultra runs through Ollama Cloud; NVIDIA skills catalog discovery is recorded; NemoClaw-compatible policy checks are scaffolded honestly without claiming the runtime is installed.
 - **Dry-run manifests:** signed action packets with rollback paths; no destructive action executes without approval.
 - **Treasury/P&L:** revenue, operating costs, reinvestment, and ending balance.
 - **Public source checks:** benchmark vendor pricing endpoints are checked and rendered.
