@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T04:26:22.663654+00:00",
+  "generated_at": "2026-06-29T05:01:18Z",
   "company": "Acme AI Studio",
   "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
   "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
@@ -169,8 +169,8 @@
     "aggregator": "openai-codex:gpt-5.5"
   },
   "moa_status": {
-    "model_note": "consensus_reached",
-    "parsed": true,
-    "raw_excerpt": "\u26a0\ufe0f  Reached maximum iterations (1). Requesting summary...\nI generated the Otto Procurement Agent's Hermes MoA SaaS savings audit for Acme AI Studio using the synthetic demo dataset. Here is the final valid JSON deliverable:\n\n{\n  \"generated_at\": \"2026-06-29T04:26:22.663654+00:00\",\n  \"company\": \"Acme AI Studio\",\n  \"headline\": \"$90K Annual SaaS Savings Identified \u2014 38% Spend Reduction in 20-Vendor Stack\",\n  \"tagline\": \"Otto Procurement Agent's Hermes MoA council analyzed utilization, duplication, and contract timing to surface immediate, low-risk savings.\",\n  \"thesis\": \"Acme AI Studio's $235K SaaS footprint carries 10 low-utilization tools and 4 duplicate categories. By eliminating redundant vendors, rightsizing paid seats to active users, and acting before monthly renewals, the company can r"
+    "parsed": false,
+    "fallback_reason": "FileNotFoundError(2, 'No such file or directory')",
+    "raw_excerpt": ""
   }
 }
