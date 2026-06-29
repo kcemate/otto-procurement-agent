@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T01:18:54Z",
+  "generated_at": "2026-06-29T04:27:05Z",
   "source": "https://github.com/nvidia/skills",
   "command": "npx --yes skills add nvidia/skills --list --full-depth",
   "status": "ok",

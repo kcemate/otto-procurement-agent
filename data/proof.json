@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-29T04:27:05Z",
+  "product_name": "Otto Procurement Profit Agent",
+  "hook": "A Nemotron-governed Hermes agent business that finds SaaS waste, gates risky actions, and books a capped Stripe test/local success fee.",
+  "scope": {
+    "data_mode": "synthetic replay",
+    "stripe_mode": "local_stripe_style_test_event",
+    "real_customer_data": false,
+    "real_revenue_claimed": false,
+    "nemoclaw_runtime_installed": false,
+    "local_nvidia_gpu": false
+  },
+  "verified_numbers": {
+    "synthetic_annual_spend": 235416,
+    "synthetic_annual_savings": 62880,
+    "local_test_success_fee": 12576.0,
+    "modeled_run_cost": 34.2,
+    "customer_net_first_year_value": 50304.0,
+    "contribution_margin": 12541.8,
+    "nvidia_skills_discovered": 225,
+    "nemotron_latency_seconds": 9.864
+  },
+  "nvidia": {
+    "nemotron_model": "ollama-launch:nemotron-3-ultra:cloud",
+    "nemotron_role": "Risk Reviewer",
+    "nemotron_status": "ok",
+    "nemotron_verdict": "escalate",
+    "nvidia_skills_count": 225,
+    "nvidia_gpu_status": {
+      "available": false,
+      "reason": "nvidia-smi not found on this runner"
+    },
+    "nemoclaw_status": "scaffold_only_not_production_nemoclaw",
+    "nemoclaw_disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval."
+  }
+}

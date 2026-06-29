@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T01:18:54Z",
+  "generated_at": "2026-06-29T04:27:05Z",
   "host": "macOS-26.5.1-arm64-arm-64bit",
   "nvidia_gpu": {
     "available": false,
@@ -20,7 +20,7 @@
     "role": "Risk Reviewer in Hermes MoA",
     "status": "ok",
     "verdict": "escalate",
-    "latency_seconds": 5.181
+    "latency_seconds": 9.864
   },
   "nemoclaw": {
     "runtime_installed": false,
@@ -35,7 +35,7 @@
     "disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval."
   },
   "nvidia_skills": {
-    "generated_at": "2026-06-29T01:18:54Z",
+    "generated_at": "2026-06-29T04:27:05Z",
     "source": "https://github.com/nvidia/skills",
     "command": "npx --yes skills add nvidia/skills --list --full-depth",
     "status": "ok",
@@ -65,7 +65,7 @@
   "cpu_fallback_benchmark": {
     "elapsed_seconds": 0.0051,
     "checksum": 679924,
-    "ops_per_second": 31311920.5
+    "ops_per_second": 31579986.2
   },
   "deployment_story": "Risk review routes through Nemotron 3 Ultra via Ollama Cloud. The demo records local NVIDIA GPU detection and CPU fallback. NemoClaw is represented as an honest compatibility scaffold, not a claimed production runtime."
 }

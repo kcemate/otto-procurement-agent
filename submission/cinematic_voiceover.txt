@@ -1,19 +1,19 @@
 Otto doesn't just find savings. It knows which savings not to take.
 
-This SaaS stack costs two hundred thirty-five thousand, four hundred sixteen dollars a year.
+This synthetic SaaS stack costs two hundred thirty-five thousand, four hundred sixteen dollars a year.
 
-The tempting move was Slack. Otto blocked it. Legal hold. Executive workspace dependencies. Risk greater than savings.
+The tempting move was Slack. Nemotron escalated it. Legal hold. Executive workspace dependencies. Risk greater than savings.
 
-Then the evidence wall builds the safe case: usage, invoice, contract, renewal.
+Then the proof wall builds the safe case: usage, invoice, owner, renewal.
 
-The MoA council checks it. Finance validates the P&L. Risk kills the bad cut. Engineering verifies the run.
+The Hermes council checks it. Finance validates the P&L. The NemoClaw-compatible gate blocks unsafe action. Human approval stays in control.
 
-Approved savings: sixty-two thousand, eight hundred eighty dollars.
+Approved synthetic savings: sixty-two thousand, eight hundred eighty dollars.
 
-Success fee: twelve thousand, five hundred seventy-six.
+Stripe test success fee: twelve thousand, five hundred seventy-six.
 
-Agent run cost: thirty-four dollars and twenty cents.
+Modeled agent run cost: thirty-four dollars and twenty cents.
 
-Output: signed dry-run manifests. GitHub Actions runs the cycle. Private inference keeps procurement data in-lane.
+Output: signed dry-run manifests, treasury ledger, and a replayable audit trail.
 
-Otto Procurement Agent. Find savings. Block bad savings. Prove the rest.
+Otto Procurement Profit Agent. Find savings. Gate risk. Prove the business.

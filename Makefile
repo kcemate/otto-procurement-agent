@@ -20,8 +20,12 @@ verify:
 	$(PYTHON) -m json.tool data/nemoclaw_safety_rack.json >/dev/null
 	$(PYTHON) -m json.tool data/nvidia_integrations.json >/dev/null
 	$(PYTHON) -m json.tool data/nvidia_skills_access.json >/dev/null
+	$(PYTHON) -m json.tool data/proof.json >/dev/null
+	$(PYTHON) -m json.tool data/safety_log.json >/dev/null
+	$(PYTHON) -m json.tool data/treasury.json >/dev/null
 	$(PYTHON) -m json.tool site/data.json >/dev/null
 	node --check site/app.js
+	bash scripts/verify_submission.sh
 	@echo "verify_ok"
 
 nvidia-verify:
@@ -33,5 +37,5 @@ nvidia-verify:
 
 package:
 	rm -f submission/otto-procurement-submission-package.zip
-	zip -r submission/otto-procurement-submission-package.zip README.md data scripts nvidia site docs .github Makefile submission/video_script.md submission/x_post.md submission/x_post_short.md submission/x_reply_nvidia_proof.md submission/discord_submission.md submission/form_answers.md submission/otto-procurement-tenx-demo.mp4 submission/otto-procurement-cinematic-x-demo.mp4 submission/cinematic_video_notes.md submission/cinematic_voiceover.txt submission/cinematic_voiceover.ogg submission/cinematic_background.jpg submission/mobile-live-dashboard.png submission/cinematic-contact-sheet-final.jpg submission/tenx-site-screenshot.png submission/tenx-github-pages-screenshot.png strategy/10x-gap-analysis.md strategy/council-10x.md strategy/nvidia-nemotron-moa-rescue.md -x '*/.herenow/*' '*/.herenow' >/tmp/otto_procurement_zip.log
+	zip -r submission/otto-procurement-submission-package.zip README.md data scripts nvidia site docs .github Makefile submission/video_script.md submission/x_post.md submission/x_post_short.md submission/x_reply.md submission/x_reply_nvidia_proof.md submission/discord_submission.md submission/form_answers.md submission/form_patch.md submission/verification_checklist.md submission/otto-procurement-tenx-demo.mp4 submission/otto-procurement-cinematic-x-demo.mp4 submission/cinematic_video_notes.md submission/cinematic_voiceover.txt submission/cinematic_voiceover.ogg submission/cinematic_background.jpg submission/mobile-live-dashboard.png submission/profit-agent-site-screenshot.png submission/profit-agent-video-contact-sheet.jpg submission/cinematic-contact-sheet-final.jpg submission/tenx-site-screenshot.png submission/tenx-github-pages-screenshot.png strategy/10x-gap-analysis.md strategy/council-10x.md strategy/rules-grounding.md strategy/claim-ledger.md strategy/nemotron-product-divergence.md strategy/final-product-decision.md strategy/manual-moa-nemotron-risk-strategist.md strategy/manual-moa-gpt-business-judge.md strategy/manual-moa-glm-builder-feasibility.md strategy/nvidia-nemotron-moa-rescue.md -x '*/.herenow/*' '*/.herenow' >/tmp/otto_procurement_zip.log
 	@echo "package_ok"

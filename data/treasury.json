@@ -1,19 +1,8 @@
 {
-  "generated_at": "2026-06-29T04:27:01Z",
-  "business": "Otto Procurement Agent",
-  "currency": "usd",
-  "payment": {
-    "mode": "local_stripe_style_test_event",
-    "payment_link": null,
-    "reason": "No Stripe test secret in runtime; using signed local checkout.session.completed event.",
-    "amount_cents": 1257600
-  },
-  "safety_limits": {
-    "max_autonomous_ops_spend_cents": 5000,
-    "live_spend_requires_human_approval": true,
-    "public_demo_dataset": true
-  },
-  "stripe_event": {
+  "generated_at": "2026-06-29T04:27:05Z",
+  "mode": "local_stripe_style_test_event",
+  "disclosure": "Stripe is test/local in this public demo; no real revenue is claimed.",
+  "success_fee_event": {
     "id": "evt_otto_procurement_1782707221",
     "type": "checkout.session.completed",
     "created": 1782707221,
@@ -32,6 +21,11 @@
       }
     },
     "local_signature": "23544e76d8fa0021cea950e693c6215658b0c38fb091ee565a4245d99a8e97f7"
+  },
+  "safety_limits": {
+    "max_autonomous_ops_spend_cents": 5000,
+    "live_spend_requires_human_approval": true,
+    "public_demo_dataset": true
   },
   "entries": [
     {
@@ -77,7 +71,11 @@
       "timestamp": "2026-06-29T04:27:01Z"
     }
   ],
-  "balance_cents": 1204180,
-  "gross_margin_cents_before_reinvestment": 1254180,
-  "delivery_status": "audit_and_provisioning_plan_prepared"
+  "ending_balance_cents": 1204180,
+  "payment": {
+    "mode": "local_stripe_style_test_event",
+    "payment_link": null,
+    "reason": "No Stripe test secret in runtime; using signed local checkout.session.completed event.",
+    "amount_cents": 1257600
+  }
 }

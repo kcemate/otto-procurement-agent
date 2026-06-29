@@ -283,8 +283,8 @@ def scene_numbers(img,t):
     bottom_caption(d,'One run. Visible revenue. Visible cost. Visible customer value.')
 
 def scene_autonomy(img,t):
-    d=ImageDraw.Draw(img,'RGBA'); top_label(d,'AUTONOMY + PRIVATE INFERENCE')
-    centered(d,130,'It keeps running after the demo',F_H,COL['text'])
+    d=ImageDraw.Draw(img,'RGBA'); top_label(d,'NVIDIA PROOF LANE')
+    centered(d,130,'Nemotron reviews before money moves',F_H,COL['text'])
     nodes=['schedule','fetch','MoA review','manifest','publish']
     x=110; y=330; node_h=110
     for i,n in enumerate(nodes):
@@ -296,13 +296,14 @@ def scene_autonomy(img,t):
         if i<len(nodes)-1: d.line((540,y+i*170+node_h,540,y+(i+1)*170),fill=COL['green']+(90,),width=3)
     # inference lane
     rounded(d,(70,1250,1010,1580),28,fill=(0,0,0,220),outline=COL['green'],width=2)
-    d.text((110,1290),'NVIDIA / PRIVATE INFERENCE LANE',font=F_BODY_B,fill=COL['green'])
+    d.text((110,1290),'NEMOTRON + POLICY GATE',font=F_BODY_B,fill=COL['green'])
     # animated trace
     p=clamp((t-3.8)/2.2); xend=int(150+760*p)
     d.line((150,1410,xend,1410),fill=COL['green2'],width=5)
     d.ellipse((xend-10,1400,xend+10,1420),fill=COL['green2'])
-    d.text((110,1480),'No secrets in prompts. Sensitive procurement data stays in-lane.',font=F_CAP,fill=COL['muted'])
-    bottom_caption(d,'GitHub Actions runs the cycle. Private inference keeps data in-lane.')
+    d.text((110,1480),'Nemotron 3 Ultra via Ollama Cloud',font=F_BODY_B,fill=COL['green'])
+    d.text((110,1530),'NemoClaw-style policy scaffold',font=F_BODY,fill=COL['muted'])
+    bottom_caption(d,'Nemotron reviews risk. Policy gates approve or block the next move.')
 
 def scene_close(img,t,dash):
     d=ImageDraw.Draw(img,'RGBA')
@@ -319,13 +320,13 @@ def scene_close(img,t,dash):
     # darken lower half and make the CTA readable in a feed
     d.rectangle((0,1180,W,H),fill=(0,0,0,175))
     y=1225
-    centered(d,y,'Otto Procurement Agent',F_H,COL['text']); y+=105
+    centered(d,y,'Otto Procurement Profit Agent',F_BODY_B,COL['text']); y+=105
     centered(d,y,'Find savings.',F_H,COL['green']); y+=78
-    centered(d,y,'Block bad savings.',F_H,COL['red']); y+=78
-    centered(d,y,'Prove the rest.',F_H,COL['gold']); y+=98
+    centered(d,y,'Gate risk.',F_H,COL['red']); y+=78
+    centered(d,y,'Prove the business.',F_H,COL['gold']); y+=98
     rounded(d,(110,y,970,y+118),28,fill=(99,91,255,245),outline=(255,255,255,110),width=3)
     centered(d,y+26,'LIVE DEMO',F_H,COL['white'])
-    centered(d,y+152,'kcemate.github.io/otto-procurement-agent',F_MICRO,COL['muted'])
+    centered(d,y+152,'kcemate.github.io/otto-procurement-agent',F_CAP,COL['muted'])
 
 def render_video():
     bg=prepare_bg()

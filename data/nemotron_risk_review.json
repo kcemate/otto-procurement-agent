@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-15T14:32:00Z",
+  "generated_at": "2026-06-29T04:27:01Z",
   "role": "risk_reviewer",
   "model": "ollama-launch:nemotron-3-ultra:cloud",
   "status": "ok",
@@ -9,12 +9,12 @@
   "required_controls": [
     "Legal team written clearance for legal hold channels",
     "Executive sponsor sign-off for workspace automation impact",
-    "Security team validation of retention compliance",
-    "Dry-run execution with audit logging",
-    "Signed rollback procedure with 4-hour RTO",
-    "Human approval gate with documented risk acceptance"
+    "Security team validation of retention requirements",
+    "Dry-run simulation with legal hold preservation verified",
+    "Signed rollback path tested and documented",
+    "Human approval from legal, security, and executive stakeholders"
   ],
   "provider": "ollama_openai_compatible",
-  "latency_seconds": 5.181,
-  "raw_excerpt": "{\n  \"generated_at\": \"2025-08-15T14:32:00Z\",\n  \"role\": \"Risk Reviewer\",\n  \"model\": \"Nemotron 3 Ultra\",\n  \"status\": \"reviewed\",\n  \"verdict\": \"escalate\",\n  \"reason\": \"Active legal holds on 12 channels create legal compliance risk that cannot be mitigated by technical controls alone. Executive workspace automation dependency requires business stakeholder sign-off. Unresolved security retention requirements need security team validation. Available controls (dry-run, rollback, human approval) are necessary but insufficient without legal, executive, and security clearance.\",\n  \"blocked_action\": \"Cancel Slack Enterprise add-ons\",\n  \"required_controls\": [\n    \"Legal team written clearance for legal hold channels\",\n    \"Executive sponsor sign-off for workspace automation impact\",\n    \"Security team validation of retention compliance\",\n    \"Dry-run execution with audit logging\",\n    \"Signed rollback procedure with 4-hour RTO\",\n    \"Human approval gate with documented risk acceptance\"\n  ]\n}"
+  "latency_seconds": 9.864,
+  "raw_excerpt": "{\n  \"generated_at\": \"2025-08-18T14:23:12Z\",\n  \"role\": \"Risk Reviewer\",\n  \"model\": \"Nemotron 3 Ultra\",\n  \"status\": \"reviewed\",\n  \"verdict\": \"escalate\",\n  \"reason\": \"Active legal holds on 12 channels create legal compliance risk that cannot be mitigated by technical controls alone. Executive workspace automation dependency requires business stakeholder sign-off. Unresolved security retention requirements need security team validation. Available controls (dry-run, rollback, human approval) are necessary but insufficient without legal, executive, and security clearance.\",\n  \"blocked_action\": \"Cancel Slack Enterprise add-ons\",\n  \"required_controls\": [\n    \"Legal team written clearance for legal hold channels\",\n    \"Executive sponsor sign-off for workspace automation impact\",\n    \"Security team validation of retention requirements\",\n    \"Dry-run simulation with legal hold preservation verified\",\n    \"Signed rollback path tested and documented\",\n    \"Human approval from legal, security, and e"
 }

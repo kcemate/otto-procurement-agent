@@ -1,262 +1,6 @@
 {
-  "spend": {
-    "company": "Acme AI Studio",
-    "snapshot_month": "2026-06",
-    "employees": 72,
-    "policy": {
-      "success_fee_pct": 0.2,
-      "live_spend_requires_human_approval": true,
-      "public_demo_dataset": true
-    },
-    "vendors": [
-      {
-        "vendor": "Slack",
-        "category": "Collaboration",
-        "annual_cost": 18360,
-        "seats_paid": 90,
-        "active_users": 71,
-        "utilization_pct": 79,
-        "contract": "annual",
-        "renewal_days": 54,
-        "note": "Paid seats exceed headcount; enterprise tier includes unused workflow add-ons."
-      },
-      {
-        "vendor": "Google Workspace",
-        "category": "Productivity",
-        "annual_cost": 12096,
-        "seats_paid": 84,
-        "active_users": 72,
-        "utilization_pct": 86,
-        "contract": "annual",
-        "renewal_days": 81,
-        "note": "Core identity and docs platform; keep but true-up seats."
-      },
-      {
-        "vendor": "Zoom",
-        "category": "Meetings",
-        "annual_cost": 7560,
-        "seats_paid": 70,
-        "active_users": 39,
-        "utilization_pct": 56,
-        "contract": "monthly",
-        "renewal_days": 12,
-        "note": "Meeting usage shifted to Google Meet for internal calls."
-      },
-      {
-        "vendor": "Notion",
-        "category": "Docs/Wiki",
-        "annual_cost": 8640,
-        "seats_paid": 80,
-        "active_users": 47,
-        "utilization_pct": 59,
-        "contract": "annual",
-        "renewal_days": 102,
-        "note": "Docs overlap with Google Drive; guest-heavy usage."
-      },
-      {
-        "vendor": "Asana",
-        "category": "Project Management",
-        "annual_cost": 14400,
-        "seats_paid": 60,
-        "active_users": 51,
-        "utilization_pct": 85,
-        "contract": "annual",
-        "renewal_days": 43,
-        "note": "Primary project tool for GTM and operations."
-      },
-      {
-        "vendor": "Monday.com",
-        "category": "Project Management",
-        "annual_cost": 9600,
-        "seats_paid": 45,
-        "active_users": 13,
-        "utilization_pct": 29,
-        "contract": "monthly",
-        "renewal_days": 9,
-        "note": "Duplicate project management tool used by two legacy teams."
-      },
-      {
-        "vendor": "Figma",
-        "category": "Design",
-        "annual_cost": 12960,
-        "seats_paid": 54,
-        "active_users": 26,
-        "utilization_pct": 48,
-        "contract": "annual",
-        "renewal_days": 64,
-        "note": "Many paid editor seats are viewer-only behavior."
-      },
-      {
-        "vendor": "Canva Teams",
-        "category": "Design",
-        "annual_cost": 3600,
-        "seats_paid": 30,
-        "active_users": 17,
-        "utilization_pct": 57,
-        "contract": "monthly",
-        "renewal_days": 15,
-        "note": "Useful for marketing but overlaps with Figma for templates."
-      },
-      {
-        "vendor": "Miro",
-        "category": "Whiteboarding",
-        "annual_cost": 7200,
-        "seats_paid": 50,
-        "active_users": 19,
-        "utilization_pct": 38,
-        "contract": "annual",
-        "renewal_days": 118,
-        "note": "Low active use after design reviews moved to FigJam."
-      },
-      {
-        "vendor": "Lucidchart",
-        "category": "Diagramming",
-        "annual_cost": 4320,
-        "seats_paid": 24,
-        "active_users": 7,
-        "utilization_pct": 29,
-        "contract": "annual",
-        "renewal_days": 31,
-        "note": "Diagramming can be consolidated into Miro/FigJam for most users."
-      },
-      {
-        "vendor": "Datadog",
-        "category": "Observability",
-        "annual_cost": 42000,
-        "seats_paid": 25,
-        "active_users": 18,
-        "utilization_pct": 72,
-        "contract": "annual",
-        "renewal_days": 27,
-        "note": "Core observability; commit level above current ingest volume."
-      },
-      {
-        "vendor": "New Relic",
-        "category": "Observability",
-        "annual_cost": 18000,
-        "seats_paid": 20,
-        "active_users": 4,
-        "utilization_pct": 20,
-        "contract": "monthly",
-        "renewal_days": 6,
-        "note": "Legacy duplicate retained after Datadog migration."
-      },
-      {
-        "vendor": "HubSpot",
-        "category": "CRM",
-        "annual_cost": 21600,
-        "seats_paid": 18,
-        "active_users": 15,
-        "utilization_pct": 83,
-        "contract": "annual",
-        "renewal_days": 73,
-        "note": "Core CRM and pipeline source of truth."
-      },
-      {
-        "vendor": "Intercom",
-        "category": "Support",
-        "annual_cost": 16800,
-        "seats_paid": 14,
-        "active_users": 11,
-        "utilization_pct": 79,
-        "contract": "annual",
-        "renewal_days": 44,
-        "note": "Core in-app support and onboarding."
-      },
-      {
-        "vendor": "Zendesk",
-        "category": "Support",
-        "annual_cost": 10800,
-        "seats_paid": 12,
-        "active_users": 3,
-        "utilization_pct": 25,
-        "contract": "monthly",
-        "renewal_days": 11,
-        "note": "Duplicate support queue from pre-Intercom era."
-      },
-      {
-        "vendor": "Airtable",
-        "category": "Database/Workflow",
-        "annual_cost": 7920,
-        "seats_paid": 33,
-        "active_users": 16,
-        "utilization_pct": 48,
-        "contract": "monthly",
-        "renewal_days": 18,
-        "note": "Ops workflows, but several bases replaced by Notion databases."
-      },
-      {
-        "vendor": "Dropbox",
-        "category": "Storage",
-        "annual_cost": 5400,
-        "seats_paid": 45,
-        "active_users": 8,
-        "utilization_pct": 18,
-        "contract": "annual",
-        "renewal_days": 58,
-        "note": "Legacy file storage after Google Drive rollout."
-      },
-      {
-        "vendor": "1Password",
-        "category": "Security",
-        "annual_cost": 4320,
-        "seats_paid": 80,
-        "active_users": 70,
-        "utilization_pct": 88,
-        "contract": "annual",
-        "renewal_days": 96,
-        "note": "Keep; security control."
-      },
-      {
-        "vendor": "Calendly",
-        "category": "Scheduling",
-        "annual_cost": 3840,
-        "seats_paid": 32,
-        "active_users": 14,
-        "utilization_pct": 44,
-        "contract": "monthly",
-        "renewal_days": 8,
-        "note": "Sales/CS need it; many internal-only users idle."
-      },
-      {
-        "vendor": "Loom",
-        "category": "Async Video",
-        "annual_cost": 6000,
-        "seats_paid": 40,
-        "active_users": 12,
-        "utilization_pct": 30,
-        "contract": "monthly",
-        "renewal_days": 10,
-        "note": "Async video use concentrated in enablement."
-      }
-    ],
-    "generated_at": "2026-06-29T01:15:11Z",
-    "summary": {
-      "vendor_count": 20,
-      "annual_spend": 235416,
-      "low_utilization_count": 10,
-      "duplicate_categories": {
-        "Project Management": [
-          "Asana",
-          "Monday.com"
-        ],
-        "Design": [
-          "Figma",
-          "Canva Teams"
-        ],
-        "Observability": [
-          "Datadog",
-          "New Relic"
-        ],
-        "Support": [
-          "Intercom",
-          "Zendesk"
-        ]
-      }
-    }
-  },
   "audit": {
-    "generated_at": "2026-06-28T12:00:00Z",
+    "generated_at": "2026-06-29T04:26:22.663654+00:00",
     "company": "Acme AI Studio",
     "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
     "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
@@ -428,11 +172,11 @@
     "moa_status": {
       "model_note": "consensus_reached",
       "parsed": true,
-      "raw_excerpt": "{\n  \"generated_at\": \"2026-06-28T12:00:00Z\",\n  \"company\": \"Acme AI Studio\",\n  \"headline\": \"Acme AI Studio Can Cut $90,416 from SaaS Spend in 90 Days\",\n  \"tagline\": \"Seven redundant tools, 10 low-utilization contracts, and 38.4% savings with zero engineering downtime.\",\n  \"thesis\": \"Acme AI Studio's $235K SaaS stack contains $57,720 in duplicate-category spend and another $33,696 in seat-level over-provisioning across 20 vendors. By eliminating legacy duplicates, right-sizing paid seats to active-employee baselines, and renegotiating the Datadog commit ahead of its 27-day renewal, the company can recover 38.4% of annual SaaS spend while preserving identity, CRM, observability, and security controls.\",\n  \"confidence\": 0.94,\n  \"before_annual_spend\": 235416,\n  \"after_annual_spend\": 145000,\n  \"a"
+      "raw_excerpt": "\u26a0\ufe0f  Reached maximum iterations (1). Requesting summary...\nI generated the Otto Procurement Agent's Hermes MoA SaaS savings audit for Acme AI Studio using the synthetic demo dataset. Here is the final valid JSON deliverable:\n\n{\n  \"generated_at\": \"2026-06-29T04:26:22.663654+00:00\",\n  \"company\": \"Acme AI Studio\",\n  \"headline\": \"$90K Annual SaaS Savings Identified \u2014 38% Spend Reduction in 20-Vendor Stack\",\n  \"tagline\": \"Otto Procurement Agent's Hermes MoA council analyzed utilization, duplication, and contract timing to surface immediate, low-risk savings.\",\n  \"thesis\": \"Acme AI Studio's $235K SaaS footprint carries 10 low-utilization tools and 4 duplicate categories. By eliminating redundant vendors, rightsizing paid seats to active users, and acting before monthly renewals, the company can r"
     }
   },
   "ledger": {
-    "generated_at": "2026-06-29T01:18:50Z",
+    "generated_at": "2026-06-29T04:27:01Z",
     "business": "Otto Procurement Agent",
     "currency": "usd",
     "payment": {
@@ -447,9 +191,9 @@
       "public_demo_dataset": true
     },
     "stripe_event": {
-      "id": "evt_otto_procurement_1782695930",
+      "id": "evt_otto_procurement_1782707221",
       "type": "checkout.session.completed",
-      "created": 1782695930,
+      "created": 1782707221,
       "livemode": false,
       "data": {
         "object": {
@@ -464,50 +208,50 @@
           }
         }
       },
-      "local_signature": "2e2b549745d5c28947851862e759871ced390ed65fec5968a19e7d8c46fe4844"
+      "local_signature": "23544e76d8fa0021cea950e693c6215658b0c38fb091ee565a4245d99a8e97f7"
     },
     "entries": [
       {
         "type": "revenue",
         "label": "Success-fee checkout: 20% of first-year savings",
         "amount_cents": 1257600,
-        "source": "evt_otto_procurement_1782695930",
-        "timestamp": "2026-06-29T01:18:50Z"
+        "source": "evt_otto_procurement_1782707221",
+        "timestamp": "2026-06-29T04:27:01Z"
       },
       {
         "type": "spend",
         "label": "MoA council SaaS audit",
         "amount_cents": -1850,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-29T01:18:50Z"
+        "timestamp": "2026-06-29T04:27:01Z"
       },
       {
         "type": "spend",
         "label": "Spend ingestion and normalization",
         "amount_cents": -420,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-29T01:18:50Z"
+        "timestamp": "2026-06-29T04:27:01Z"
       },
       {
         "type": "spend",
         "label": "Provisioning plan generation",
         "amount_cents": -960,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-29T01:18:50Z"
+        "timestamp": "2026-06-29T04:27:01Z"
       },
       {
         "type": "spend",
         "label": "Static hosting allocation",
         "amount_cents": -190,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-06-29T01:18:50Z"
+        "timestamp": "2026-06-29T04:27:01Z"
       },
       {
         "type": "reserve",
         "label": "Reinvested into next SaaS audit cycle",
         "amount_cents": -50000,
         "approved_by": "policy:retain_positive_balance",
-        "timestamp": "2026-06-29T01:18:50Z"
+        "timestamp": "2026-06-29T04:27:01Z"
       }
     ],
     "balance_cents": 1204180,
@@ -515,7 +259,7 @@
     "delivery_status": "audit_and_provisioning_plan_prepared"
   },
   "evidence": {
-    "generated_at": "2026-06-29T01:18:52Z",
+    "generated_at": "2026-06-29T04:27:03Z",
     "replayable": true,
     "company": "Acme AI Studio",
     "evidence_cards": [
@@ -766,8 +510,8 @@
         "mode": "dry_run",
         "approval_required": true,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-29T01:18:50Z",
-        "signature": "dryrun_275ca8b7b87b102c"
+        "created_at": "2026-06-29T04:27:01Z",
+        "signature": "dryrun_bdcc246dbcbd442a"
       },
       {
         "action_id": "act-002",
@@ -776,8 +520,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-29T01:18:50Z",
-        "signature": "dryrun_aa8fa13b5a6c1974"
+        "created_at": "2026-06-29T04:27:01Z",
+        "signature": "dryrun_f85eb02611a5a383"
       },
       {
         "action_id": "act-003",
@@ -786,8 +530,8 @@
         "mode": "dry_run",
         "approval_required": true,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-29T01:18:50Z",
-        "signature": "dryrun_beba8463ccd4fc12"
+        "created_at": "2026-06-29T04:27:01Z",
+        "signature": "dryrun_d0541327b34ee4ad"
       },
       {
         "action_id": "act-004",
@@ -796,8 +540,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-29T01:18:50Z",
-        "signature": "dryrun_6e8bcd3c98c786d9"
+        "created_at": "2026-06-29T04:27:01Z",
+        "signature": "dryrun_965284281fc39f07"
       },
       {
         "action_id": "act-005",
@@ -806,8 +550,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-06-29T01:18:50Z",
-        "signature": "dryrun_8d2b6b414c78a590"
+        "created_at": "2026-06-29T04:27:01Z",
+        "signature": "dryrun_ce1fe04e7ceb14eb"
       }
     ],
     "run_log": [
@@ -872,52 +616,38 @@
       "Asana": {
         "url": "https://asana.com/pricing",
         "status": 200,
-        "checked_at": "2026-06-29T01:18:51Z"
+        "checked_at": "2026-06-29T04:27:02Z"
       },
       "Figma": {
         "url": "https://www.figma.com/pricing/",
         "status": 200,
-        "checked_at": "2026-06-29T01:18:51Z"
+        "checked_at": "2026-06-29T04:27:02Z"
       },
       "Zoom": {
         "url": "https://www.zoom.us/pricing",
         "status": 200,
-        "checked_at": "2026-06-29T01:18:51Z"
+        "checked_at": "2026-06-29T04:27:02Z"
       },
       "Datadog": {
         "url": "https://www.datadoghq.com/pricing/",
         "status": 200,
-        "checked_at": "2026-06-29T01:18:51Z"
+        "checked_at": "2026-06-29T04:27:02Z"
       },
       "Intercom": {
         "url": "https://www.intercom.com/pricing",
         "status": 200,
-        "checked_at": "2026-06-29T01:18:52Z"
+        "checked_at": "2026-06-29T04:27:03Z"
       },
       "Slack": {
         "url": "https://slack.com/pricing",
         "status": 200,
-        "checked_at": "2026-06-29T01:18:52Z"
+        "checked_at": "2026-06-29T04:27:03Z"
       }
     },
-    "next_run_at": "2026-06-29T02:18:50Z"
-  },
-  "lab": {
-    "generated_at": "2026-06-29T01:18:54Z",
-    "host": "macOS-26.5.1-arm64-arm-64bit",
-    "nvidia": {
-      "available": false,
-      "reason": "nvidia-smi not found on this runner"
-    },
-    "cpu_fallback_benchmark": {
-      "elapsed_seconds": 0.0038,
-      "checksum": 598096294,
-      "ops_per_second": 31472660.9
-    },
-    "deployment_story": "Procurement evidence contains contracts, pricing and vendor terms. The production path is local/private inference on NVIDIA-class hardware; this runner records CPU fallback when no NVIDIA GPU is attached."
+    "next_run_at": "2026-06-29T05:27:01Z"
   },
   "nvidia": {
-    "generated_at": "2026-06-29T01:18:54Z",
+    "generated_at": "2026-06-29T04:27:05Z",
     "host": "macOS-26.5.1-arm64-arm-64bit",
     "nvidia_gpu": {
       "available": false,
@@ -938,7 +668,7 @@
       "role": "Risk Reviewer in Hermes MoA",
       "status": "ok",
       "verdict": "escalate",
-      "latency_seconds": 5.181
+      "latency_seconds": 9.864
     },
     "nemoclaw": {
       "runtime_installed": false,
@@ -953,7 +683,7 @@
       "disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval."
     },
     "nvidia_skills": {
-      "generated_at": "2026-06-29T01:18:54Z",
+      "generated_at": "2026-06-29T04:27:05Z",
       "source": "https://github.com/nvidia/skills",
       "command": "npx --yes skills add nvidia/skills --list --full-depth",
       "status": "ok",
@@ -983,15 +713,213 @@
     "cpu_fallback_benchmark": {
       "elapsed_seconds": 0.0051,
       "checksum": 679924,
-      "ops_per_second": 31311920.5
+      "ops_per_second": 31579986.2
     },
     "deployment_story": "Risk review routes through Nemotron 3 Ultra via Ollama Cloud. The demo records local NVIDIA GPU detection and CPU fallback. NemoClaw is represented as an honest compatibility scaffold, not a claimed production runtime."
   },
+  "proof": {
+    "generated_at": "2026-06-29T04:27:05Z",
+    "product_name": "Otto Procurement Profit Agent",
+    "hook": "A Nemotron-governed Hermes agent business that finds SaaS waste, gates risky actions, and books a capped Stripe test/local success fee.",
+    "scope": {
+      "data_mode": "synthetic replay",
+      "stripe_mode": "local_stripe_style_test_event",
+      "real_customer_data": false,
+      "real_revenue_claimed": false,
+      "nemoclaw_runtime_installed": false,
+      "local_nvidia_gpu": false
+    },
+    "verified_numbers": {
+      "synthetic_annual_spend": 235416,
+      "synthetic_annual_savings": 62880,
+      "local_test_success_fee": 12576.0,
+      "modeled_run_cost": 34.2,
+      "customer_net_first_year_value": 50304.0,
+      "contribution_margin": 12541.8,
+      "nvidia_skills_discovered": 225,
+      "nemotron_latency_seconds": 9.864
+    },
+    "nvidia": {
+      "nemotron_model": "ollama-launch:nemotron-3-ultra:cloud",
+      "nemotron_role": "Risk Reviewer",
+      "nemotron_status": "ok",
+      "nemotron_verdict": "escalate",
+      "nvidia_skills_count": 225,
+      "nvidia_gpu_status": {
+        "available": false,
+        "reason": "nvidia-smi not found on this runner"
+      },
+      "nemoclaw_status": "scaffold_only_not_production_nemoclaw",
+      "nemoclaw_disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval."
+    }
+  },
+  "safety_log": {
+    "generated_at": "2026-06-29T04:27:05Z",
+    "runtime": "NemoClaw-compatible safety instrumentation scaffold",
+    "runtime_installed": false,
+    "disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval.",
+    "events": [
+      {
+        "kind": "manifest_gate",
+        "action_id": "act-001",
+        "step": "Open cancellation workflow for New Relic monthly plan",
+        "decision": "prepared_for_human_approval",
+        "checks": {
+          "scope_check": true,
+          "rollback_present": true,
+          "human_approval_required": true,
+          "dry_run_signature_present": true,
+          "rate_limit_policy": "max_autonomous_ops_spend_5000c"
+        }
+      },
+      {
+        "kind": "manifest_gate",
+        "action_id": "act-002",
+        "step": "Generate Monday.com to Asana migration checklist",
+        "decision": "blocked_until_controls_pass",
+        "checks": {
+          "scope_check": true,
+          "rollback_present": true,
+          "human_approval_required": false,
+          "dry_run_signature_present": true,
+          "rate_limit_policy": "max_autonomous_ops_spend_5000c"
+        }
+      },
+      {
+        "kind": "manifest_gate",
+        "action_id": "act-003",
+        "step": "Draft Figma seat true-up CSV for procurement admin",
+        "decision": "prepared_for_human_approval",
+        "checks": {
+          "scope_check": true,
+          "rollback_present": true,
+          "human_approval_required": true,
+          "dry_run_signature_present": true,
+          "rate_limit_policy": "max_autonomous_ops_spend_5000c"
+        }
+      },
+      {
+        "kind": "manifest_gate",
+        "action_id": "act-004",
+        "step": "Create Zendesk-to-Intercom queue routing plan",
+        "decision": "blocked_until_controls_pass",
+        "checks": {
+          "scope_check": true,
+          "rollback_present": true,
+          "human_approval_required": false,
+          "dry_run_signature_present": true,
+          "rate_limit_policy": "max_autonomous_ops_spend_5000c"
+        }
+      },
+      {
+        "kind": "manifest_gate",
+        "action_id": "act-005",
+        "step": "Prepare Stripe success-fee checkout for approved savings audit",
+        "decision": "blocked_until_controls_pass",
+        "checks": {
+          "scope_check": true,
+          "rollback_present": true,
+          "human_approval_required": false,
+          "dry_run_signature_present": true,
+          "rate_limit_policy": "max_autonomous_ops_spend_5000c"
+        }
+      },
+      {
+        "kind": "nemotron_risk_block",
+        "action": "Cancel Slack Enterprise add-ons",
+        "decision": "blocked",
+        "reason": "Legal hold, executive workspace dependencies, and security retention requirements make the cut unsafe without a workspace-level review.",
+        "nemotron_verdict": "escalate",
+        "model": "ollama-launch:nemotron-3-ultra:cloud"
+      }
+    ]
+  },
+  "treasury": {
+    "generated_at": "2026-06-29T04:27:05Z",
+    "mode": "local_stripe_style_test_event",
+    "disclosure": "Stripe is test/local in this public demo; no real revenue is claimed.",
+    "success_fee_event": {
+      "id": "evt_otto_procurement_1782707221",
+      "type": "checkout.session.completed",
+      "created": 1782707221,
+      "livemode": false,
+      "data": {
+        "object": {
+          "id": "cs_test_otto_procurement",
+          "amount_total": 1257600,
+          "currency": "usd",
+          "customer_email": "buyer@example.com",
+          "metadata": {
+            "annual_savings": "62880",
+            "success_fee_pct": "0.2",
+            "company": "Acme AI Studio"
+          }
+        }
+      },
+      "local_signature": "23544e76d8fa0021cea950e693c6215658b0c38fb091ee565a4245d99a8e97f7"
+    },
+    "safety_limits": {
+      "max_autonomous_ops_spend_cents": 5000,
+      "live_spend_requires_human_approval": true,
+      "public_demo_dataset": true
+    },
+    "entries": [
+      {
+        "type": "revenue",
+        "label": "Success-fee checkout: 20% of first-year savings",
+        "amount_cents": 1257600,
+        "source": "evt_otto_procurement_1782707221",
+        "timestamp": "2026-06-29T04:27:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "MoA council SaaS audit",
+        "amount_cents": -1850,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-29T04:27:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "Spend ingestion and normalization",
+        "amount_cents": -420,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-29T04:27:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "Provisioning plan generation",
+        "amount_cents": -960,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-29T04:27:01Z"
+      },
+      {
+        "type": "spend",
+        "label": "Static hosting allocation",
+        "amount_cents": -190,
+        "approved_by": "policy:max_autonomous_ops_spend_5000c",
+        "timestamp": "2026-06-29T04:27:01Z"
+      },
+      {
+        "type": "reserve",
+        "label": "Reinvested into next SaaS audit cycle",
+        "amount_cents": -50000,
+        "approved_by": "policy:retain_positive_balance",
+        "timestamp": "2026-06-29T04:27:01Z"
+      }
+    ],
+    "ending_balance_cents": 1204180,
+    "payment": {
+      "mode": "local_stripe_style_test_event",
+      "payment_link": null,
+      "reason": "No Stripe test secret in runtime; using signed local checkout.session.completed event.",
+      "amount_cents": 1257600
+    }
+  },
   "format": {
-    "before": "$235,416",
-    "after": "$172,536",
+    "spend": "$235,416",
     "savings": "$62,880",
-    "success_fee": "$12,576",
+    "fee": "$12,576",
+    "run_cost": "$34",
     "balance": "$12,041.80"
   }
 }

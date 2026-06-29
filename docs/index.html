@@ -1,1 +1,93 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Otto Procurement Agent</title><link rel="stylesheet" href="styles.css"></head><body><header class="topbar"><div><p class="eyebrow">Hermes Agent Accelerated Business Hackathon</p><h1>Otto Procurement Agent</h1></div><div class="status-pill" id="paymentMode">loading</div></header><main><section class="hero card"><div><p class="eyebrow">Agent-run savings business</p><h2 id="headline">Loading audit...</h2><p id="thesis" class="lede"></p><div class="actions"><button id="replayBtn">Replay the agent run</button><span id="nextRun">Next run loading</span></div></div><div class="metrics"><div><b id="before">--</b><span>Before spend</span></div><div><b id="savings">--</b><span>Found savings</span></div><div><b id="fee">--</b><span>Stripe success fee</span></div></div></section><section class="steps"><article><b>1 / SCOUT</b><h3>Ingest messy SaaS evidence</h3><p>Invoices, usage logs, contracts, renewal windows, owners, and duplicate app categories.</p></article><article><b>2 / CHALLENGE</b><h3>Adversarial MoA council</h3><p>Savings Hunter, Finance Auditor, IT Reviewer, Risk Reviewer, and Aggregator agree or block.</p></article><article><b>3 / OPERATE</b><h3>Earn, spend, deliver</h3><p>Success-fee event, P&L, signed dry-run manifests, and buyer approval queue.</p></article></section><section class="card replay"><div class="section-head"><div><p class="eyebrow">Replay mode</p><h2>One-click audit trail</h2></div><span>Deterministic run from raw evidence to fee event</span></div><div id="runLog" class="runlog"></div></section><section class="card"><div class="section-head"><div><p class="eyebrow">Evidence cards</p><h2>Every dollar has fingerprints</h2></div><span id="generated"></span></div><p class="small">Before spend covers the full 20-vendor stack; evidence cards show the seven approved actions that survived risk review.</p><div id="evidenceCards" class="evidence-grid"></div></section><section class="grid"><article class="card"><p class="eyebrow">MoA council</p><h2>Visible challenger reasoning</h2><div id="council"></div><div id="blocked" class="blocked"></div></article><article class="card"><p class="eyebrow">Dry-run manifests</p><h2>Agent-prepared operations</h2><div id="manifests"></div></article></section><section class="grid"><article class="card"><p class="eyebrow">Treasury + P&L</p><h2>Profitable on run one</h2><div id="pnl" class="pnl"></div><div id="ledger"></div></article><article class="card"><p class="eyebrow">Controls + grounding</p><h2>Safety limits and public price checks</h2><div id="controls"></div><div id="sources"></div><div id="lab"></div><p class="small">Live customer-facing changes remain behind approval. The demo uses test-mode economics only.</p></article></section><section class="card proof"><p class="eyebrow">Submission proof</p><h2>Why this is a business, not a chatbot</h2><div><article><b>Earns</b><p>Success-fee checkout: 20% of annualized savings found by the agent.</p></article><article><b>Spends</b><p>MoA, ingestion, provisioning, hosting, and reinvestment debited under policy.</p></article><article><b>Runs ops</b><p>Produces evidence cards, blocks unsafe cuts, and signs dry-run action manifests.</p></article></div></section></main><footer>Built with Hermes Agent + MoA for the Nous Research x NVIDIA x Stripe hackathon.</footer><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Otto Procurement Profit Agent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Nous × NVIDIA × Stripe Hermes Agent Hackathon</p>
+      <h1>Otto Procurement Profit Agent</h1>
+    </div>
+    <div class="badge">synthetic replay · test/local treasury</div>
+  </header>
+
+  <main>
+    <section class="hero card">
+      <div>
+        <p class="eyebrow">Nemotron-governed procurement twin</p>
+        <h2>Agent-run business loop: find waste → review risk → gate actions → book a success fee.</h2>
+        <p class="lede">Otto is not just a SaaS audit dashboard. It is a replayable Hermes business agent that earns through synthetic savings, spends under policy, and makes unsafe procurement actions visible before they can execute.</p>
+        <div class="cta-row">
+          <button id="replayBtn">Replay the proof trail</button>
+          <span>Human approval required before live customer-facing changes.</span>
+        </div>
+      </div>
+      <div class="metric-grid">
+        <article><span>Synthetic spend audited</span><b id="spend">--</b></article>
+        <article><span>Synthetic savings found</span><b id="savings">--</b></article>
+        <article><span>Stripe test/local success fee</span><b id="fee">--</b></article>
+        <article><span>Modeled agent run cost</span><b id="runCost">--</b></article>
+      </div>
+    </section>
+
+    <section class="proof-strip">
+      <article><b>Hermes MoA</b><p>GPT-5.5 + GLM + Nemotron roles challenge savings, finance, IT, and risk.</p></article>
+      <article><b>Nemotron 3 Ultra</b><p id="nemotronCard">Risk reviewer loading…</p></article>
+      <article><b>NemoClaw-compatible gate</b><p id="clawCard">Safety disclosure loading…</p></article>
+      <article><b>Stripe loop</b><p id="stripeCard">Treasury loading…</p></article>
+    </section>
+
+    <section class="grid2">
+      <article class="card" id="policyGate">
+        <p class="eyebrow">Visible safety layer</p>
+        <h2>Approve/block policy gate</h2>
+        <p class="small">This demo does not claim NVIDIA NemoClaw runtime is installed. It shows a NemoClaw-compatible scaffold: scope checks, rollback checks, rate limits, dry-run signatures, and human approval gates.</p>
+        <div id="safetyEvents" class="timeline"></div>
+      </article>
+
+      <article class="card">
+        <p class="eyebrow">Treasury / P&L</p>
+        <h2>Earns, spends, reconciles</h2>
+        <p class="small">Stripe remains test/local in this public demo. No real revenue or real customer payment is claimed.</p>
+        <div id="treasuryEntries" class="ledger"></div>
+      </article>
+    </section>
+
+    <section class="card" id="evidenceSection">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Evidence cards</p>
+          <h2>Every dollar has a fingerprint</h2>
+        </div>
+        <span id="generated">loading</span>
+      </div>
+      <div id="evidenceCards" class="cards"></div>
+    </section>
+
+    <section class="card replay">
+      <p class="eyebrow">Replay mode</p>
+      <h2>Deterministic audit trail</h2>
+      <div id="runLog" class="timeline"></div>
+    </section>
+
+    <section class="card honest">
+      <p class="eyebrow">Honest scope</p>
+      <h2>Aggressive demo, clean claims</h2>
+      <ul>
+        <li>Synthetic SaaS spend and usage evidence.</li>
+        <li>Stripe success-fee loop is local/test-mode unless a test key is configured.</li>
+        <li>Nemotron 3 Ultra via Ollama Cloud is real and recorded.</li>
+        <li>NVIDIA skills catalog discovery is real and recorded.</li>
+        <li>NemoClaw-compatible policy instrumentation is scaffolded; production NemoClaw runtime is not claimed as installed.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>Built with Hermes Agent, Nemotron 3 Ultra, NVIDIA skills catalog proof, and Stripe test/local economics.</footer>
+  <script src="app.js"></script>
+</body>
+</html>

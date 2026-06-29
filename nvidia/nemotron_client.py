@@ -116,9 +116,11 @@ def main() -> None:
     try:
         text, elapsed = call_nemotron(prompt)
         parsed = extract_json(text)
+        # Override model-supplied metadata with runtime-observed metadata. The model may
+        # invent timestamps or provider labels inside its JSON; those are not evidence.
         parsed.update(
             {
-                "generated_at": parsed.get("generated_at") or now(),
+                "generated_at": now(),
                 "role": "risk_reviewer",
                 "model": f"ollama-launch:{MODEL}",
                 "provider": "ollama_openai_compatible",

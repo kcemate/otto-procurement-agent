@@ -1,19 +1,16 @@
-Submission: Otto Procurement Agent
+Submission: Otto Procurement Profit Agent
 
 X demo: https://x.com/ai_aristocrat/status/2071323818313089500?s=46
 
-Replayable SaaS procurement micro-business with Hermes MoA + Nemotron 3 Ultra via Ollama Cloud. It ingests a 20-vendor SaaS stack, finds $62,880/year waste, blocks unsafe cuts, records a $12,576 success-fee event, debits operating costs, and signs dry-run manifests.
+Otto is a Hermes business agent that runs a replayable procurement business. It audits a synthetic SaaS stack, finds $62,880/year in synthetic savings on $235,416/year of synthetic spend, sends risky cuts through Nemotron 3 Ultra, applies NemoClaw-compatible approve/block policy gates, and books a capped $12,576 local/test Stripe success fee while tracking $34.20 modeled run cost.
+
+Why it fits:
+- Agents earn/spend/run ops: savings → success fee → treasury/audit ledger.
+- NVIDIA: real Nemotron 3 Ultra via Ollama Cloud for risk review; NVIDIA skills catalog discovery counted 225 skills.
+- Safety: NemoClaw-compatible scaffold/policy gate with explicit approval/block logs.
+- Stripe: test/local success-fee loop with hard limits and audit trail.
+
+Honest scope: synthetic replay only. No real customer data. No real revenue claim. No claim that NVIDIA NemoClaw runtime is installed/running. No local NVIDIA GPU required on this Mac.
 
 Demo: https://kcemate.github.io/otto-procurement-agent/
 Repo: https://github.com/kcemate/otto-procurement-agent
-
-Proof points:
-- Nemotron 3 Ultra powers the Risk Reviewer MoA role.
-- NemoClaw-compatible safety instrumentation scaffolds policy checks before action manifests.
-- GPU probe detects local NVIDIA hardware and records fallback-to-cloud/CPU status.
-- NVIDIA verified skills catalog discovery is recorded in the repo.
-- Evidence cards, blocked recommendation, agent P&L, replay mode, native X video.
-
-MoA: GPT-5.5 + GLM 5.2 Cloud + Nemotron 3 Ultra -> GPT-5.5 aggregator.
-
-Notes: Synthetic/test-mode data. Live actions require human approval. NemoClaw runtime is scaffolded, not claimed as full production runtime.

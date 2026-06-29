@@ -1,18 +1,11 @@
 {
-  "generated_at": "2026-06-29T04:27:03Z",
+  "generated_at": "2026-06-29T04:27:05Z",
   "runtime": "NemoClaw-compatible safety instrumentation scaffold",
   "runtime_installed": false,
-  "runtime_status": "scaffold_only_not_production_nemoclaw",
   "disclosure": "NemoClaw/OpenShell is not installed in this demo runtime; live customer-facing changes remain blocked behind human approval.",
-  "policy_checks": [
-    "scope_check",
-    "rate_limit_policy",
-    "rollback_present",
-    "human_approval_required",
-    "dry_run_signature_present"
-  ],
-  "manifest_evaluations": [
+  "events": [
     {
+      "kind": "manifest_gate",
       "action_id": "act-001",
       "step": "Open cancellation workflow for New Relic monthly plan",
       "decision": "prepared_for_human_approval",
@@ -25,6 +18,7 @@
       }
     },
     {
+      "kind": "manifest_gate",
       "action_id": "act-002",
       "step": "Generate Monday.com to Asana migration checklist",
       "decision": "blocked_until_controls_pass",
@@ -37,6 +31,7 @@
       }
     },
     {
+      "kind": "manifest_gate",
       "action_id": "act-003",
       "step": "Draft Figma seat true-up CSV for procurement admin",
       "decision": "prepared_for_human_approval",
@@ -49,6 +44,7 @@
       }
     },
     {
+      "kind": "manifest_gate",
       "action_id": "act-004",
       "step": "Create Zendesk-to-Intercom queue routing plan",
       "decision": "blocked_until_controls_pass",
@@ -61,6 +57,7 @@
       }
     },
     {
+      "kind": "manifest_gate",
       "action_id": "act-005",
       "step": "Prepare Stripe success-fee checkout for approved savings audit",
       "decision": "blocked_until_controls_pass",
@@ -71,20 +68,14 @@
         "dry_run_signature_present": true,
         "rate_limit_policy": "max_autonomous_ops_spend_5000c"
       }
-    }
-  ],
-  "blocked_recommendations": [
+    },
     {
+      "kind": "nemotron_risk_block",
       "action": "Cancel Slack Enterprise add-ons",
       "decision": "blocked",
-      "risk_reason": "Legal hold, executive workspace dependencies, and security retention requirements make the cut unsafe without a workspace-level review.",
+      "reason": "Legal hold, executive workspace dependencies, and security retention requirements make the cut unsafe without a workspace-level review.",
       "nemotron_verdict": "escalate",
-      "nemotron_model": "ollama-launch:nemotron-3-ultra:cloud"
+      "model": "ollama-launch:nemotron-3-ultra:cloud"
     }
-  ],
-  "summary": {
-    "manifests_checked": 5,
-    "prepared_for_human_approval": 2,
-    "blocked_recommendations": 1
-  }
+  ]
 }
