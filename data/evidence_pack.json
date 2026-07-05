@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T12:43:13Z",
+  "generated_at": "2026-07-05T14:53:43Z",
   "replayable": true,
   "company": "Acme AI Studio",
   "evidence_cards": [
@@ -250,8 +250,8 @@
       "mode": "dry_run",
       "approval_required": true,
       "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-      "created_at": "2026-07-05T12:43:11Z",
-      "signature": "dryrun_4ba1fd112c362467"
+      "created_at": "2026-07-05T14:53:40Z",
+      "signature": "dryrun_e7c20508386c4e75"
     },
     {
       "action_id": "act-002",
@@ -260,8 +260,8 @@
       "mode": "dry_run",
       "approval_required": false,
       "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-      "created_at": "2026-07-05T12:43:11Z",
-      "signature": "dryrun_2fa134d5aadceae4"
+      "created_at": "2026-07-05T14:53:40Z",
+      "signature": "dryrun_0c464f4a3133bba0"
     },
     {
       "action_id": "act-003",
@@ -270,8 +270,8 @@
       "mode": "dry_run",
       "approval_required": true,
       "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-      "created_at": "2026-07-05T12:43:11Z",
-      "signature": "dryrun_aa33d3567b752224"
+      "created_at": "2026-07-05T14:53:40Z",
+      "signature": "dryrun_133766c842d01f0e"
     },
     {
       "action_id": "act-004",
@@ -280,8 +280,8 @@
       "mode": "dry_run",
       "approval_required": false,
       "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-      "created_at": "2026-07-05T12:43:11Z",
-      "signature": "dryrun_cf5a39d15dd0e783"
+      "created_at": "2026-07-05T14:53:40Z",
+      "signature": "dryrun_144738f070643146"
     },
     {
       "action_id": "act-005",
@@ -290,8 +290,8 @@
       "mode": "dry_run",
       "approval_required": false,
       "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-      "created_at": "2026-07-05T12:43:11Z",
-      "signature": "dryrun_914b426b38ae1542"
+      "created_at": "2026-07-05T14:53:40Z",
+      "signature": "dryrun_e86770c2982deec6"
     }
   ],
   "run_log": [
@@ -356,33 +356,33 @@
     "Asana": {
       "url": "https://asana.com/pricing",
       "status": 200,
-      "checked_at": "2026-07-05T12:43:12Z"
+      "checked_at": "2026-07-05T14:53:41Z"
     },
     "Figma": {
       "url": "https://www.figma.com/pricing/",
       "status": 200,
-      "checked_at": "2026-07-05T12:43:13Z"
+      "checked_at": "2026-07-05T14:53:41Z"
     },
     "Zoom": {
       "url": "https://www.zoom.us/pricing",
       "status": 200,
-      "checked_at": "2026-07-05T12:43:13Z"
+      "checked_at": "2026-07-05T14:53:42Z"
     },
     "Datadog": {
       "url": "https://www.datadoghq.com/pricing/",
       "status": 200,
-      "checked_at": "2026-07-05T12:43:13Z"
+      "checked_at": "2026-07-05T14:53:42Z"
     },
     "Intercom": {
       "url": "https://www.intercom.com/pricing",
       "status": 200,
-      "checked_at": "2026-07-05T12:43:13Z"
+      "checked_at": "2026-07-05T14:53:42Z"
     },
     "Slack": {
       "url": "https://slack.com/pricing",
       "status": 200,
-      "checked_at": "2026-07-05T12:43:13Z"
+      "checked_at": "2026-07-05T14:53:43Z"
     }
   },
-  "next_run_at": "2026-07-05T13:43:11Z"
+  "next_run_at": "2026-07-05T15:53:40Z"
 }
