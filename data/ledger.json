@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:17:12Z",
+  "generated_at": "2026-07-16T00:11:19Z",
   "business": "Otto Procurement Agent",
   "currency": "usd",
   "payment": {
@@ -14,9 +14,9 @@
     "public_demo_dataset": true
   },
   "stripe_event": {
-    "id": "evt_otto_procurement_1784153832",
+    "id": "evt_otto_procurement_1784160679",
     "type": "checkout.session.completed",
-    "created": 1784153832,
+    "created": 1784160679,
     "livemode": false,
     "data": {
       "object": {
@@ -31,50 +31,50 @@
         }
       }
     },
-    "local_signature": "ee18e2437f154287a80f4c310c73e9fcd3c47b4a12fd2e9c75902ebcdf909b06"
+    "local_signature": "7db08a5b57718683a4105185b4b8490b6e78db9e355b4db7134d9c78c07bad77"
   },
   "entries": [
     {
       "type": "revenue",
       "label": "Success-fee checkout: 20% of first-year savings",
       "amount_cents": 1257600,
-      "source": "evt_otto_procurement_1784153832",
-      "timestamp": "2026-07-15T22:17:12Z"
+      "source": "evt_otto_procurement_1784160679",
+      "timestamp": "2026-07-16T00:11:19Z"
     },
     {
       "type": "spend",
       "label": "MoA council SaaS audit",
       "amount_cents": -1850,
       "approved_by": "policy:max_autonomous_ops_spend_5000c",
-      "timestamp": "2026-07-15T22:17:12Z"
+      "timestamp": "2026-07-16T00:11:19Z"
     },
     {
       "type": "spend",
       "label": "Spend ingestion and normalization",
       "amount_cents": -420,
       "approved_by": "policy:max_autonomous_ops_spend_5000c",
-      "timestamp": "2026-07-15T22:17:12Z"
+      "timestamp": "2026-07-16T00:11:19Z"
     },
     {
       "type": "spend",
       "label": "Provisioning plan generation",
       "amount_cents": -960,
       "approved_by": "policy:max_autonomous_ops_spend_5000c",
-      "timestamp": "2026-07-15T22:17:12Z"
+      "timestamp": "2026-07-16T00:11:19Z"
     },
     {
       "type": "spend",
       "label": "Static hosting allocation",
       "amount_cents": -190,
       "approved_by": "policy:max_autonomous_ops_spend_5000c",
-      "timestamp": "2026-07-15T22:17:12Z"
+      "timestamp": "2026-07-16T00:11:19Z"
     },
     {
       "type": "reserve",
       "label": "Reinvested into next SaaS audit cycle",
       "amount_cents": -50000,
       "approved_by": "policy:retain_positive_balance",
-      "timestamp": "2026-07-15T22:17:12Z"
+      "timestamp": "2026-07-16T00:11:19Z"
     }
   ],
   "balance_cents": 1204180,
