@@ -1,6 +1,6 @@
 {
   "audit": {
-    "generated_at": "2026-11-09T17:34:30Z",
+    "generated_at": "2026-11-10T01:35:31Z",
     "company": "Acme AI Studio",
     "headline": "Otto found $62,880/year in SaaS waste in Acme AI Studio's stack",
     "tagline": "The agent that audits SaaS spend, finds waste, and bills only when it saves money.",
@@ -176,7 +176,7 @@
     }
   },
   "ledger": {
-    "generated_at": "2026-11-09T17:34:30Z",
+    "generated_at": "2026-11-10T01:35:31Z",
     "business": "Otto Procurement Agent",
     "currency": "usd",
     "payment": {
@@ -191,9 +191,9 @@
       "public_demo_dataset": true
     },
     "stripe_event": {
-      "id": "evt_otto_procurement_1794245670",
+      "id": "evt_otto_procurement_1794274531",
       "type": "checkout.session.completed",
-      "created": 1794245670,
+      "created": 1794274531,
       "livemode": false,
       "data": {
         "object": {
@@ -208,50 +208,50 @@
           }
         }
       },
-      "local_signature": "cd5fa0e240c17bbcf26ee97b4dfa372adc574028fd81f73d104bbc06359e3f65"
+      "local_signature": "7a15cc7cefc5ca36ad9b5e8003ac5fd2cbad6f979645d8c09c3d23aa35621728"
     },
     "entries": [
       {
         "type": "revenue",
         "label": "Success-fee checkout: 20% of first-year savings",
         "amount_cents": 1257600,
-        "source": "evt_otto_procurement_1794245670",
-        "timestamp": "2026-11-09T17:34:30Z"
+        "source": "evt_otto_procurement_1794274531",
+        "timestamp": "2026-11-10T01:35:31Z"
       },
       {
         "type": "spend",
         "label": "MoA council SaaS audit",
         "amount_cents": -1850,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-11-09T17:34:30Z"
+        "timestamp": "2026-11-10T01:35:31Z"
       },
       {
         "type": "spend",
         "label": "Spend ingestion and normalization",
         "amount_cents": -420,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-11-09T17:34:30Z"
+        "timestamp": "2026-11-10T01:35:31Z"
       },
       {
         "type": "spend",
         "label": "Provisioning plan generation",
         "amount_cents": -960,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-11-09T17:34:30Z"
+        "timestamp": "2026-11-10T01:35:31Z"
       },
       {
         "type": "spend",
         "label": "Static hosting allocation",
         "amount_cents": -190,
         "approved_by": "policy:max_autonomous_ops_spend_5000c",
-        "timestamp": "2026-11-09T17:34:30Z"
+        "timestamp": "2026-11-10T01:35:31Z"
       },
       {
         "type": "reserve",
         "label": "Reinvested into next SaaS audit cycle",
         "amount_cents": -50000,
         "approved_by": "policy:retain_positive_balance",
-        "timestamp": "2026-11-09T17:34:30Z"
+        "timestamp": "2026-11-10T01:35:31Z"
       }
     ],
     "balance_cents": 1204180,
@@ -259,7 +259,7 @@
     "delivery_status": "audit_and_provisioning_plan_prepared"
   },
   "evidence": {
-    "generated_at": "2026-11-09T17:34:33Z",
+    "generated_at": "2026-11-10T01:35:33Z",
     "replayable": true,
     "company": "Acme AI Studio",
     "evidence_cards": [
@@ -510,8 +510,8 @@
         "mode": "dry_run",
         "approval_required": true,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-11-09T17:34:30Z",
-        "signature": "dryrun_354846cafebff612"
+        "created_at": "2026-11-10T01:35:31Z",
+        "signature": "dryrun_70f80440cd772391"
       },
       {
         "action_id": "act-002",
@@ -520,8 +520,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-11-09T17:34:30Z",
-        "signature": "dryrun_bef91e3c2917c22d"
+        "created_at": "2026-11-10T01:35:31Z",
+        "signature": "dryrun_24103f9120969bfe"
       },
       {
         "action_id": "act-003",
@@ -530,8 +530,8 @@
         "mode": "dry_run",
         "approval_required": true,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-11-09T17:34:30Z",
-        "signature": "dryrun_3c3972a22cdd47a2"
+        "created_at": "2026-11-10T01:35:31Z",
+        "signature": "dryrun_131701f42c8bf5db"
       },
       {
         "action_id": "act-004",
@@ -540,8 +540,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-11-09T17:34:30Z",
-        "signature": "dryrun_bb2076a83d3d420f"
+        "created_at": "2026-11-10T01:35:31Z",
+        "signature": "dryrun_f943a0d61c79d0fe"
       },
       {
         "action_id": "act-005",
@@ -550,8 +550,8 @@
         "mode": "dry_run",
         "approval_required": false,
         "rollback": "restore prior seat map / reopen subscription within vendor grace period",
-        "created_at": "2026-11-09T17:34:30Z",
-        "signature": "dryrun_c1d4004474afcbe5"
+        "created_at": "2026-11-10T01:35:31Z",
+        "signature": "dryrun_d421eb1b578402b8"
       }
     ],
     "run_log": [
@@ -616,35 +616,35 @@
       "Asana": {
         "url": "https://asana.com/pricing",
         "status": 200,
-        "checked_at": "2026-11-09T17:34:31Z"
+        "checked_at": "2026-11-10T01:35:32Z"
       },
       "Figma": {
         "url": "https://www.figma.com/pricing/",
         "status": 200,
-        "checked_at": "2026-11-09T17:34:32Z"
+        "checked_at": "2026-11-10T01:35:32Z"
       },
       "Zoom": {
         "url": "https://www.zoom.us/pricing",
         "status": 200,
-        "checked_at": "2026-11-09T17:34:32Z"
+        "checked_at": "2026-11-10T01:35:32Z"
       },
       "Datadog": {
         "url": "https://www.datadoghq.com/pricing/",
         "status": 200,
-        "checked_at": "2026-11-09T17:34:32Z"
+        "checked_at": "2026-11-10T01:35:32Z"
       },
       "Intercom": {
         "url": "https://www.intercom.com/pricing",
         "status": 200,
-        "checked_at": "2026-11-09T17:34:33Z"
+        "checked_at": "2026-11-10T01:35:33Z"
       },
       "Slack": {
         "url": "https://slack.com/pricing",
         "status": 200,
-        "checked_at": "2026-11-09T17:34:33Z"
+        "checked_at": "2026-11-10T01:35:33Z"
       }
     },
-    "next_run_at": "2026-11-09T18:34:30Z"
+    "next_run_at": "2026-11-10T02:35:31Z"
   },
   "nvidia": {
     "generated_at": "2026-06-29T04:27:05Z",
